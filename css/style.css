@@ -1,0 +1,54 @@
+/* Enviado para todos os navegadores, exceto IE3 */
+
+#corpo {
+	background-color: white;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 10pt;
+	margin-bottom: 10ot;
+	margin-left: 10pt;
+	margin-right: 10pt;
+	padding-top: 15pt;
+	padding-bottom: 15pt;
+	padding-left: 11em;
+	padding-right: 15pt;
+	border-style: dotted; /*none - dotted - dashed - solid - dowble */
+	border-radius: 7%;
+	border-color: yellow;
+}
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+
+ul.navbar li {
+	background: white;
+	margin: 0.5em 0;
+	padding: 0.3em;
+	border-right: 1em solid black }
+	ul.navbar a {
+		text-decoration: none }
+	a:link {
+		color: blue }
+	a:visited {
+		color: purple }
+
+
+
+
+.h1 {
+	família da fonte: Tahoma, Verdana, "Myriad Web", sintaxe, sans-serif;
+}
+
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+
+	

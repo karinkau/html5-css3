@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    <head>
+        <!--DESAFIO 08 - 1º MÓDULO-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>▼ NAVEGAÇÃO ▼</title>
+
+        <!--folha de estilo externa-->
+        <link rel="stylesheet" href="../style.css" type="text/css">
+        <link rel="stylesheet" href="../css/navegacao.css" type="text/css">
+        <link rel="stylesheet" href="../css/links.css" type="text/css">
+        <link rel="stylesheet" href="../css/desafio8.css" type="text/css">
+
+        <!--favicon-->
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+
+        <!--separação das imagens-->
+        <style>img{margin-bottom: 20px;}</style>
+    </head>
+    <body>
+        <!--cabeçalho principal-->
+        <header class="header"> 
+            <h1>▬ Desafios do 1º módulo ▬</h1>
+        </header>
+
+        <!--navegação superior-->
+        <nav class="topnav">
+            <a href="../modulo1.html" style="float:left">Voltar para o 1ª Módulo</a>
+            <a href="../index.html" style="float:right">Apresentação inicial</a>
+            <a href="../modulos.html" style="float:right">Apresentação dos Módulos</a>
+        </nav>
+
+         <!--LAYOUT 2 COLUNAS-->
+         <main class="row">
+
+            <!--COLUNA PRINCIPAL-->
+            <aside class="leftcolumn">
+                <article class="card">
+
+                    <!--Título da página-->
+                    <h1>DESAFIO 008</h1>
+
+                    <h2>Criando uma navegação </h2>
+
+                    <p>
+                        O desafio dessa vez é criar navegação entre páginas.
+                    </p>
+
+                    <!--link pdf do desafio-->
+                    <section class="leftnav">
+                        <a href="../pdf/d008_desafio-navegacao.pdf" target="_blank" rel="next">PDF com as instruções do desafio 008</a>
+                    </section>
+                    <!--
+                        RESOLUÇÃO DO DESAFIO 08
+                        =========================
+                    -->
+                    <hr class="line">
+                    <section class="cardexercicio">
+
+                        <h1>Desafio da navegação</h1>
+
+                        <p>
+                            O desafio é criar 3 páginas, cada uma com uma cor: cinza, verde e amarelo.
+                            Páginas como mostrado nas imagens a seguir.
+                        </p>
+
+                        <img src="../imagem/d008/pagina-cinza.jpg" alt="página cinza" class="displayed">
+                        <img src="../imagem/d008/pagina-verde.jpg" alt="página verde" class="displayed">
+                        <img src="../imagem/d008/pagina-amarela.jpg" alt="página amarela" class="displayed">
+
+                        <h2>Acesse a página cinza e confira o desafio:</h2>
+
+                        <section class="d8nav">
+                            <a href="../modulo1/html-d008/pagina-cinza.html" target="_self" rel="next">Página cinza</a> 
+                        </section>
+                    </section>
+                    <hr class="line">
+                    <!-- / resolução desafio 08 -->
+                </article>
+            </aside>
+
+            <!--COLUNA LATERAL-->
+            <aside class="rightcolumn">
+
+                <h2>Desafios propostos</h2>
+
+                <!-- links dos desafios -->
+                <section class="rightnav">
+                    <a href="./desafio001.html" target="_self" rel="next">Desafio 001</a>
+                    <a href="./desafio002.html" target="_self" rel="next">Desafio 002</a>
+                    <a href="./desafio003.html" target="_self" rel="next">Desafio 003</a>
+                    <a href="./desafio004.html" target="_self" rel="next">Desafio 004</a>
+                    <a href="./desafio005.html" target="_self" rel="next">Desafio 005</a>
+                    <a href="./desafio006.html" target="_self" rel="next">Desafio 006</a>
+                    <a href="./desafio007.html" target="_self" rel="next">Desafio 007</a>
+                    <a href="./desafio008.html" target="_self" rel="next">Desafio 008</a>
+                    <a href="./desafio009.html" target="_self" rel="next">Desafio 009</a>
+                </section>
+
+                <section class="card">
+                    <h2>Links e âncoras</h2>
+
+                    <p>
+                        No módulo 1 - capítulo 10 - aula 1, foi ensinado a lidar com links e âncoras em Html.
+                    </p>
+                    <p>
+                        <strong>Links externos:</strong> que apontam para outro local fora do site é recomendado usar os atributos:
+                    </p>
+                    <ul>
+                        <li>target="_blank" → para abrir a página em outra aba.</li>
+                        <li>rel="external" → para indicar aos buscadores que o link não pertence ao site pesquisado.</li>
+                    </ul>
+
+                    <p>
+                        <strong>Links internos:</strong> são os links que formam o site pesquisado. Exemplo: essas páginas cinza, amarelo e verde são links internos do site como todas as outras páginas dos desafios. 
+                    </p>
+
+                    <h2>Link para download</h2>
+
+                    <p>Para criar um link de download de um ebook ou arquivo qualquer, é preciso <strong><ins>compactar</ins></strong> em .zip ou .rar</p>
+
+                    <p>Depois de compactado o arquivo, basta criar o link de download referenciando esse arquivo. Assim, se abrirá uma tela no seu sistema pedindo autorização para baixar o arquivo.</p>
+                </section>
+
+                <section class="card">
+                    <h2>Vamos testar:</h2>
+
+                    <p>Coloquei um arquivo de texto simples, gerado no bloco de notas, com símbolos para inclusão rápida - usando apenas a tecla ALT no teclado mais números.</p>
+
+                    <p>Exemplo: ALT + 2 = ☻</p>
+
+                    <h3>Baixe o arquivo:</h3>
+
+                    <a href="./html-d008/simbolos.rar" download="simbolos.rar" type="application/rar">Símbolos-rápidos.rar</a>
+
+                    <p>▬ Visualize o arquivo no navegador.</p>
+
+                    <a href="./html-d008/simbolos.txt" target="_blank" rel="next">Símbolos-rápidos.txt</a>
+                </section>
+
+                <section class="card">
+                    <img src="../imagem/cursoemvideo.jpg" alt="símbolo do Curso em Vídeo" class="displayed">
+                    <p> <cite>Curso em Vídeo</cite> o site de ensino mais amado do Brasil.
+                </section>
+
+            </aside> 
+        </main>
+         <!--footer simples-->  
+         <footer class="footer">
+            <h5>
+                | ► Feito por <a href="https://github.com/karinkau" target="_blank" rel="external">Karin Kau</a>◄ | Módulo 1 - desafio 008 ☺ Concluído com êxito ! ☺
+            </h5>
+        </footer>
+    </body>
+</html>

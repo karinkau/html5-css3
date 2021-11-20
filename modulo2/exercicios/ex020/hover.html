@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        div:hover{
+            color: red;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+
+    <p>Passe o mouse sobre o texto abaixo</p>
+
+    <div>
+        passe o mouse aqui
+        <p>TEXTO ESCONDIDO ...</p>
+    </div>
+    <p>Fim do Exemplo.</p>
+
+     <!--navegação-->
+     <nav style="margin: 20px; padding: 20px; background-color:aquamarine; font-size: 25px;; font-weight: 700;">
+        <a href="./links.html" target="_self" rel="next">Links HTML</a> ▬
+        <a href="./pseudoclasse.html" target="_self" rel="next">Pseudo classes</a> 
+    </nav>
+</body>
+</html>

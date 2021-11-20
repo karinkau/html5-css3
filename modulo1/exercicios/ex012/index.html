@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <hr>
+    <h2>versões de vídeos</h2>
+    
+    <video width="560" poster="./img/limoes-capa.png" controls autoplay loop>   
+        <source src="./midias/limoes-em-queda-mp4.mp4" type="video/mp4">
+        <source src="./midias/limoes-em-queda-mkv.mkv" type="video/mkv">
+        <source src="./midias/limoes-em-queda-m4v.m4v" type="video/m4v">
+        <source src="./midias/limoes-em-queda-webm.webm" type="video/webm"> 
+        <source src="./midias/limoes-em-queda-ogv.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com a reprodução de vídeos.</p>
+    </video>
+    <hr>
+
+    <h1>inserindo vídeos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ugQuUigKSwg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <hr>
+    <h1>inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/425772649?color=ff0179&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+    <hr>
+    <h3>vídeo mp4</h3>
+    <video src="./midias/limoes-em-queda-mp4.mp4" width="500" controls></video>
+
+    <h3>vídeo ogv</h3>
+    <video src="./midias/limoes-em-queda-ogv.ogv" width="500" controls></video>
+
+    <h3>Vídeo webm</h3>
+    <video src="./midias/limoes-em-queda-webm.webm" width="500" controls></video>
+
+    <h3>vídeo m4v</h3>
+    <video src="./midias/limoes-em-queda-m4v.m4v" width="500" controls></video>
+
+    <h3>vídeo mkv</h3>
+    <video src="./midias/limoes-em-queda-mkv.mkv" width="500" controls></video>
+
+    
+</body>
+</html>

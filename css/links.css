@@ -1,0 +1,52 @@
+/* ==== LINKS DE NAVEGAÇÃO === 
+  ==============================*/
+@charset  "UTF-8";
+
+/* link header */
+.header a {
+    font-size: 25px;
+    font-weight: 800px;
+    background-color: black;
+    color: bisque;
+  }
+
+.header a:hover {
+    background-color: black;   
+    color:gold;            
+  }
+.header a:visited{
+    background-color: black;
+    color: goldenrod;
+  }
+
+
+
+  /* link geral */
+a {
+    color:blue;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 5px;
+  }
+  a:hover {
+    color:midnightblue;
+  }
+  a:active {
+    color: blueviolet;
+  }
+
+  /* ---------- link geral ---------- */
+.footer a {
+  color: gold;
+  font-size: medium;
+  font-weight: 600;
+  font-style: italic;
+  padding: 5px;
+}
+.footer a:hover {
+  color:goldenrod;
+}
+.footer a:active {
+  color:greenyellow;
+}

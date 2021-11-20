@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        /* Seletor global - configuração geral */
+        * {
+            border: 1px solid gray;
+        }
+        body {
+            display: grid;
+            grid-template-columns: 10em auto 10em;
+            grid-gap: 10px;
+            grid-template-areas: 
+                "header header header"
+                "nav main aside"
+                "footer footer footer"
+            ;
+        }
+        main {
+            height: 200px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <h1>Cabeçalho</h1>
+    </header>
+
+    <!--Navegação-->
+    <nav>
+        <h2>Navegação</h2>
+    </nav>
+    <!--Conteúdo-->
+    <main>
+        <h1>Conteúdo principal/h1>
+    </main>
+    <!--Sidebar-->
+    <aside>
+        <h2>Sidebar</h2>
+    </aside>
+
+    <!--Rodapé-->
+    <footer>
+        <p>Testando layout com Grids areas</p>
+
+        <!--navegação-->
+        <nav style="margin: 20px; padding: 20px; background-color:aquamarine; font-size: 25px;; font-weight: 700;">
+            <a href="./barralateral.html" target="_self" rel="next">Barra lateral</a> ▬
+            <a href="./caixa01.html" target="_self" rel="next">Caixa 01</a> ▬
+            <a href="./caixa02.html" target="_self" rel="next">Caixa 02</a> ▬
+            <a href="./caixa03.html" target="_self" rel="next">Caixa 03</a> ▬
+            <a href="./sitekau.html" target="_self" rel="next">Site</a> 
+        </nav>
+    </footer>
+</body>
+</html>

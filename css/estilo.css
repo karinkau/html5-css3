@@ -1,0 +1,99 @@
+body {
+    padding-left: 11em;
+    font-family: cursive;
+    size: 12pt;
+    color: black;
+    background-color: gainsboro }
+
+
+  ul.navbar {
+    list-style-type: none;
+    font-size: medium;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+
+
+  h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+    font-size: xx-large;
+    font-weight: 900;
+   }
+
+   h2,h3,h4,h5,h6{
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(14, 121, 49);
+     font-size: x-large;
+   }
+
+   p{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: black;
+     font-size: 14pt;
+     padding-left: 1em;
+   }
+
+  ul.navbar li {
+    background: oldlace;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 2em solid green ;
+  }
+
+  ul.navbar a {
+    text-decoration: none ;
+  }
+
+  a:link {
+    color: red ;
+  }
+
+  a:visited {
+    color: blue ;
+  }
+
+  /* linhas horizontais */
+  hr.quadrada{
+      border: dashed 2pt rgb(41,129,6)}
+
+  hr.duascores{
+      border-top: double 10px green;
+      background-color: yellowgreen;}
+
+  hr.grove{
+      border: groove 2pt green;
+    }
+
+  footer{
+      background-color: rgb(14, 121, 49);
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      size: 12;
+      font-weight: 800;
+      padding-left: 10em;
+      padding-right: 10em;
+    }
+
+    pre{
+      font-family:'Courier New', Courier, monospace; 
+      font: size 20; 
+      font-weight: 700;
+      color:rgb(34, 32, 32)";
+    }
+
+    menu{
+      color: chartreuse;
+      background-color: darkmagenta;
+    }
+    
+    
+    
+
+    
+
+    
+    

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    <head>
+        <!--DESAFIO 06 - 1º MÓDULO-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>▼ Tags em HTML ▼</title>
+
+        <!--folha de estilo externa-->
+        <link rel="stylesheet" href="../style.css" type="text/css">
+        <link rel="stylesheet" href="../css/navegacao.css" type="text/css">
+        <link rel="stylesheet" href="../css/links.css" type="text/css">
+
+        <!--favicon-->
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <!--cabeçalho principal-->
+        <header class="header"> 
+            <h1>▬ Desafios do 1º módulo ▬</h1>
+        </header>
+
+        <!--navegação superior-->
+        <nav class="topnav">
+            <a href="../modulo1.html" style="float:left">Voltar para o 1ª Módulo</a>
+            <a href="../index.html" style="float:right">Apresentação inicial</a>
+            <a href="../modulos.html" style="float:right">Apresentação dos Módulos</a>
+        </nav>
+
+        <!--LAYOUT 2 COLUNAS-->
+        <main class="row">
+
+            <!--COLUNA PRINCIPAL-->
+            <aside class="leftcolumn">
+                <article class="card">
+
+                    <!--Título da página-->
+                    <h1>DESAFIO 006</h1>
+
+                    <h2>Tags em HTML </h2>
+
+                    <p>
+                        Esse exercício faz uma lista de coisas que podem ser adicionadas em uma página. O desafio aqui é arrumar uma maneira que, ao passar o mouse sobre um termo, mostre qual é a tag utilizada para fazer isso.
+                    </p>
+                     <!--links do desafio-->
+                     <section class="leftnav">
+                        <a href="../pdf/d006_desafio-tags.pdf" target="_blank" rel="next">PDF com as instruções do desafio 006</a>
+                     </section>
+                    <!--
+                        RESOLUÇÃO DO DESAFIO 06
+                        =========================
+                    -->
+                    <hr class="line">
+                    <div class="cardexercicio">
+                        
+                        <h1>Tags em HTML</h1>
+
+                        <p>
+                            Em HTML 5, podemos inserir os elementos da lista a seguir. <strong><ins>Passe o mouse sobre os termos</ins></strong>  para descobrir qual tag deverá utilizar em cada caso.
+                        </p>
+
+                        <ul style="list-style-type: square; font-weight: 500;font-size: 22px;color: midnightblue;">
+
+                            <li><abbr title="use a tag &lt;title&gt;">título da janela</abbr></li>
+                            <li><abbr title="use a tag &lt;p&gt;">parágrafo</abbr></li>
+                            <li><abbr title="use a tag &lt;hr&gt;">linha horizontal</abbr></li>
+                            <li><abbr title="use a tag &lt;img&gt;">imagem</abbr></li>
+                            <li><abbr title="use a tag &lt;abbr&gt;">abreviação</abbr></li>
+                            <li><abbr title="use a tag &lt;br&gt;">quebra de linha</abbr></li>
+                            <li><abbr title="use a tag &lt;code&gt;">código-fonte em uma linha</abbr></li>
+                            <li><abbr title="use a tag &lt;ol&gt;">lista numerada</abbr></li>
+                            <li><abbr title="use a tag &lt;ul&gt;">lista não ordenada</abbr></li>
+                            <li><abbr title="use a tag &lt;dl&gt;">lista de definição</abbr></li>
+                            <li><abbr title="use a tag &lt;a&gt;">link / âncora</abbr></li>
+                            <li><abbr title="use a tag &lt;link&gt;">ligação de documento</abbr></li>
+                            <li><abbr title="use a tag &lt;h1&gt; até &lt;h6&gt;">hierarquia de títulos</abbr></li>
+                            <li><abbr title="use a tag &lt;strong&gt;">texto em negrito</abbr></li>
+                            <li><abbr title="use a tag &lt;em&gt;">texto em itálico</abbr></li>
+                            <li><abbr title="use a tag &lt;mark&gt;">marcar texto</abbr></li>
+                            <li><abbr title="use a tag &lt;small&gt;">texto pequeno</abbr></li>
+                            <li><abbr title="use a tag &lt;del&gt;">texto riscado</abbr></li>
+                            <li><abbr title="use a tag &lt;ins&gt;">texto sublinhado</abbr></li>
+                            <li><abbr title="use a tag &lt;sub&gt;">texto subscrito</abbr></li>
+                            <li><abbr title="use a tag &lt;sup&gt;">texto sobrescrito</abbr></li>
+                            <li><abbr title="use a tag &lt;pre&gt;">texto pre formatado em bloco</abbr></li>
+                            <li><abbr title="use a tag &lt;q&gt;">citação curta</abbr></li>
+                            <li><abbr title="use a tag &lt;bloquote&gt;">citação longa em bloco</abbr></li>
+                            <li><abbr title="use a tag &lt;bdo&gt;">texto bidirecional</abbr></li>
+                            <li><abbr title="use a tag &lt;style&gt;">inserir estilo css</abbr></li>
+                            <li><abbr title="use a tag &lt;picture&gt;">atrelar várias imagens</abbr></li>
+                            <li><abbr title="use a tag &lt;audio&gt;">carregar áudio</abbr></li>
+                            <li><abbr title="use a tag &lt;video&gt;">visualizar vídeo</abbr></li>
+                            <li><abbr title="use a tag &lt;iframe&gt;">inserir o conteúdo de outra página</abbr></li>
+                        </ul>
+                        <br><hr>
+
+                        <h2>Exitem 2 formas de resolução:</h2>
+
+                        <h3>Tag &lt;abbr&gt;</h3>
+
+                        <abbr title="usando a tag &lt;abbr&gt; para mostra essa dica">Passe o mouse para ver a dica</abbr>
+
+                        <h3>Atributo title usado em qualquer tag</h3>
+
+                        <h4 style="color: red;" title="Esse é um título de hierarquia 4 &lt;h4&gt;">Passe o mouse para ver a dica</h2>
+
+                        <p title="Esse é um parágrafo porque usa a tag &lt;p&gt;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam delectus autem nisi, quo voluptate dolorum eos nesciunt quia assumenda praesentium iste molestiae repellendus enim pariatur id suscipit deserunt hic debitis? <br><strong>Passe o mouse para ver a dica</strong> 
+                        </p>
+                        <br><hr>
+                        <p>Na resolução do exercício inicial, usamos a tag de abreviação abbr.</p>
+                    </div>
+                    <hr class="line">
+                    <!-- / resolução desafio 06 -->
+                </article>
+            </aside>
+
+            <!--COLUNA LATERAL-->
+            <aside class="rightcolumn">
+
+                <h2>Desafios propostos</h2>
+
+               <!-- links dos desafios -->
+               <section class="rightnav">
+                    <a href="./desafio001.html" target="_self" rel="next">Desafio 001</a>
+                    <a href="./desafio002.html" target="_self" rel="next">Desafio 002</a>
+                    <a href="./desafio003.html" target="_self" rel="next">Desafio 003</a>
+                    <a href="./desafio004.html" target="_self" rel="next">Desafio 004</a>
+                    <a href="./desafio005.html" target="_self" rel="next">Desafio 005</a>
+                    <a href="./desafio006.html" target="_self" rel="next">Desafio 006</a>
+                    <a href="./desafio007.html" target="_self" rel="next">Desafio 007</a>
+                    <a href="./desafio008.html" target="_self" rel="next">Desafio 008</a>
+                    <a href="./desafio009.html" target="_self" rel="next">Desafio 009</a>
+                </section>
+
+                <!--imagens-->
+                <section class="card">
+                    <h2>Aprendendo:</h2>
+
+                    <img src="../imagem/html-css/html5-css3.jpg" alt="Simbolo do HTML-5 e CSS-3" class="displayed">
+
+                    <p>Dedicando minhas horas vagas no estudo dessas duas belas linguagens. <br>O futuro é aprender outras línguas como o JavaScript, para colocar interatividade em meus projetos.</p>
+
+                    <img src="../imagem/html-css/tecnologias-300x120.jpg" alt="Simbolo do HTML-5, CSS-3, JavaScript + Visual Studio Code" width="250px" height="120px" class="displayed">
+
+                    <p>JavaScript - é a linguagem de programação mais utilizada nos últimos tempos para desenvolvimento Front End, como também, no desenvolvimento Back End.</p>
+
+                    <h2>Foco principal</h2>
+
+                    <p>Desenvolvimento Frond End.</p>
+
+                    <p>Meu primeiro contato com linguagens de programação foi com o Visual basic. </p>
+                    
+                    <p>Enfim, já conheci algumas línguas. Agora, estou focando minha atenção para absorver o máximo de HTML + CSS.</p>
+                    
+                    <h3>Outros cursos realizados no Curso em Vídeo:</h3>
+
+                    <p>Wordpress, Python, Git e Github ...</p>
+
+                    <h2>Wordpress</h2>
+
+                    <p>O que eu aprendi com o curso de Wordpress - verifique no site:</p>
+
+                    <a href="http://estudandoesperanto.com/" target="_blank" rel="external"><img src="../imagem/estudando-esperando-pisca-pisca.gif" alt="Simbolo do HTML-5 e CSS-3" width="250px" height="100px" class="displayed"></a>
+                </section>
+            </aside>
+        </main>
+
+        <!--footer simples-->  
+        <footer class="footer">
+            <h5>
+                | ► Feito por <a href="https://github.com/karinkau" target="_blank" rel="external">Karin Kau</a>◄ | Módulo 1 - desafio 006 ☺ Concluído com êxito ! ☺
+            </h5>
+        </footer>
+    </body>
+</html>

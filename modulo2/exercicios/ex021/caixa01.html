@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        body{font-size: 20px;}
+        h1{ /* box-level */
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border: 10px solid darkslategray;
+            padding: 10px;
+            margin: 20px auto 40px auto; /* centralizando as laterais */
+            outline: 5px dashed aqua;
+        }
+        a{ /* inline-level */
+            border: 10px solid red;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixas box-level</h1>
+
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p><br>
+
+    <hr>
+    <!--navegação-->
+    <nav style="margin: 20px; padding: 20px; background-color:aquamarine; font-size: 25px;; font-weight: 700;">
+        <a href="./barralateral.html" target="_self" rel="next">Barra lateral</a> ▬
+        <a href="./caixa02.html" target="_self" rel="next">Caixa 02</a> ▬
+        <a href="./caixa03.html" target="_self" rel="next">Caixa 03</a> ▬
+        <a href="./grid.html" target="_self" rel="next">Grid</a> ▬
+        <a href="./sitekau.html" target="_self" rel="next">Site</a> 
+    </nav>
+    <hr>
+</body>
+</html>

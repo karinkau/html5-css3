@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body {background-color: gray;}
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            /* Tamanho fixo e centralizado do conteúdo */
+            min-width: 280; /*largura de celulares antigos*/
+            max-width: 800px;
+            margin: auto;
+        }
+        img {width: 100%;}
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, minus neque, necessitatibus error consectetur molestias reprehenderit repellendus sed architecto esse deserunt enim, veritatis maxime velit similique provident. Nostrum, nobis rerum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint exercitationem sequi nostrum ullam porro, odit natus dicta incidunt quidem laborum libero molestiae, a cumque corporis quis maxime, numquam soluta odio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, nulla optio ipsam dolorum facere itaque, eligendi quod dolorem accusantium dolor possimus blanditiis debitis eaque molestias. Quam quibusdam quia architecto illum.</p>
+
+        <picture>
+            <source media="(max-width:600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="./imagens/irina-blok.jpg" alt="irina-blok">
+        </picture>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, minus neque, necessitatibus error consectetur molestias reprehenderit repellendus sed architecto esse deserunt enim, veritatis maxime velit similique provident. Nostrum, nobis rerum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint exercitationem sequi nostrum ullam porro, odit natus dicta incidunt quidem laborum libero molestiae, a cumque corporis quis maxime, numquam soluta odio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, nulla optio ipsam dolorum facere itaque, eligendi quod dolorem accusantium dolor possimus blanditiis debitis eaque molestias. Quam quibusdam quia architecto illum.</p>
+    </main>
+</body>
+</html>

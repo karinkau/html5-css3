@@ -1,0 +1,31 @@
+/*Desafio 008*/
+@charset  "UTF-8";
+
+/*botão página cinza*/
+.d8nav {
+    overflow:hidden;          
+    background-color: navajowhite;  
+  }
+  .d8nav a {
+    float: right;          
+    display:block;    
+    color:black;   
+    font-weight: 800;
+    text-align: center;   
+    font-size: 25px;
+    padding: 10px 20px;   
+    text-decoration: none;   
+    background-color:grey;
+    margin: 5px;
+    border-radius: 25px;
+    border-style:groove;
+  } 
+  .d8nav a:hover {
+    background-color: silver;  
+    color:black;  
+    border-style:dotted;         
+  }
+  .d8nav a:active {
+  color: gold;
+  background-color: black;
+  }

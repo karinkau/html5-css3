@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    <head>
+        <!--DESAFIO 07 - 1º MÓDULO - IMAGEM FLEXÍVEL-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>▼ Imagem flexível ▼</title>
+
+        <!--folha de estilo externa-->
+        <link rel="stylesheet" href="../style.css" type="text/css">
+        <link rel="stylesheet" href="../css/navegacao.css" type="text/css">
+        <link rel="stylesheet" href="../css/links.css" type="text/css">
+
+        <!--favicon-->
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <!--cabeçalho principal-->
+        <header class="header"> 
+            <h1>▬ Desafios do 1º módulo ▬</h1>
+        </header>
+
+        <!--navegação superior-->
+        <nav class="topnav">
+            <a href="../modulo1/desafio007.html" style="float: left;">Voltar ao site</a>
+        </nav>
+
+         <!--LAYOUT 2 COLUNAS-->
+        <main class="row">
+
+            <!--COLUNA PRINCIPAL-->
+            <section>
+                <article>
+
+                    <!--Título da página-->
+                    <h1 style="text-align: center;">DESAFIO 007</h1>
+
+                    <h2 style="text-align: center;">Imagem flexível ao tamanho de tela </h2>
+
+                    <p style="text-align: center;">
+                        O navegador deverá mostrar a mesma imagem em tamanhos distintos, ou seja, imagem pequena, média e grande conforme o tamanho da tela. 
+                    </p>
+                     <!--
+                        RESOLUÇÃO DO DESAFIO 07
+                        =========================
+                    -->
+                    <hr class="line">
+                    <section>
+                        <!--flexibilidade da imagens-->
+                        <picture> 
+
+                            <source media="(max-width: 750px)" srcset="../imagem/d007/paisagem-p.png" type="image/png">
+
+                            <source media="(max-width: 1050px)" srcset="../imagem/d007/paisagem-m.png" type="image/png">
+
+                            <img src="../imagem/d007/paisagem-g.png" alt="imagem-flexivel" class="displayed">
+                        </picture>
+                    </section>
+                    <hr class="line">
+                    <!-- / resolução desafio 07 -->
+                </article>
+            </section>
+        </main>
+         <!--footer simples-->  
+         <footer class="footer">
+            <h5>
+                | ► Feito por <a href="https://github.com/karinkau" target="_blank" rel="external">Karin Kau</a>◄ | Módulo 1 - desafio 007 ☺ Concluído com êxito ! ☺
+            </h5>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <!--DESAFIO 08 - 1º MÓDULO - PÁGINA CINZA-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Navegação</title>
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!--estilo da página-->
+    <style>
+        body{background-color: silver;}
+        main{padding: 30px; margin: 10px;}
+        ul{list-style-type: circle;font-weight: 400;font-size: 20px;}
+        h1{font-size: 50px;font-family:Tahoma, sans-serif;color: black;}
+        p{font-size: 25px;font-family: Arial,sans-serif;color: black;}
+        a{font-size: 23px;color: blue;font-weight: 600;font-family:arial;}
+        a:hover{background-color:rgb(163, 163, 242);}
+        a.voltar{font-size: 20px;color:orangered;font-weight: 600;font-family:Verdana, sans-serif;background-color:black;padding: 15px;margin: 15px;border-radius: 30px;margin-top: 150px;position:fixed;}
+        a.voltar:hover{background-color: yellow;color: indigo;}
+    </style>
+</head>
+<body>
+    <main>
+        <!--página cinza-->
+        <h1>Desafio da navegação</h1>
+
+        <p>
+            Esta é a página principal, o índice do seu site. É a página cinza. A partir dela você pode acessar as outras áreas principais através dos links a seguir:
+        </p>
+
+        <ul>
+            <li><a href="./pagina-verde.html" target="_self" rel="next">Acessar a área verde</a></li>
+
+            <li><a href="./pagina-amarela.html" target="_self" rel="next">Acessar a área amarela</a></li>
+        </ul>
+        <a class="voltar" href="../desafio008.html" target="_self" rel="prev">Voltar ao Desafio 008</a> 
+    </main>
+</body>
+</html>

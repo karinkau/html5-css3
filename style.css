@@ -1,0 +1,196 @@
+/* =====================================================
+              LAYOUT RESPONSIVO DE DUAS COLUNAS
+======================================================= */
+@charset  "UTF-8";
+
+/*Dimensão da caixa universal: caixa de borda */
+* { box-sizing: border-box;}
+
+body {           
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+  padding:0px;         
+  background: #f1f1f1;   
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* ---------- cabeçalho do site ---------- */
+.header {
+  padding: 0.1px;       
+  text-align: center;  
+  background: black;  
+  color: bisque;
+
+}
+/* h1 - título header */
+  header.h1 {         
+  font-size: 25px;  
+  font-weight: 800px; 
+}
+
+/* ---------- Coluna esquerda ---------- */
+.leftcolumn {   
+  float: left;   /*flutuar: esquerda*/
+  width: 75%;    /*largurar*/
+}
+
+/* ---------- Coluna direita ---------- */
+.rightcolumn {
+  float: left;       /*flutuar: esquerda*/
+  width: 25%;        /*largurar*/
+  background-color: #f1f1f1;  /*cor de fundo*/
+  padding-left: 30px;          /*preenchimento esquerdo*/
+  margin-top: 20px;
+}
+
+/* ---------- Limpar os flutuadores após as colunas ---------- */
+.row:after {
+  content: "";        /*conteúdo*/
+  display: table;     /*exibição em tabela*/
+  clear: both;       /*limpar ambos*/
+}
+
+/* ---------- rodapé linha  ---------- */
+.footer {
+  padding: 0.1px; 
+  text-align: center;   
+  background: black;    
+  color: bisque;
+  margin:0.1px;
+}
+
+/* ---------- cartão dos artigos ---------- */
+.card {
+  background-color: white;  
+  padding: 20px;              
+  margin:10px;         
+}
+/* ---------- cartão dos exercícios ---------- */
+.cardexercicio {
+  background-color: navajowhite; 
+  padding: 20px; 
+  margin: 10px;
+  
+}
+
+/* ---------- imagem falsa ---------- */
+.fakeimg {
+  background-color: #aaa;  /*cor de fundo*/
+  width: 100%;               /*largura*/
+  padding: 50px;             /*preenchimento*/
+  border-radius: 10px;
+}
+
+/* ---------- textos pré-formatados ---------- */
+pre {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: oblique;
+  text-align: left;
+}
+
+/* ---------- parágrafo geral ---------- */
+p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: Geneva, Tahoma, sans-serif, sans-serif;
+  text-align: justify;
+}
+
+/* ---------- títulos h1 ao h6 ---------- */
+h1 {
+  font-size: 35px;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 14px;
+}
+
+/* ---------- lista não ordenada ---------- */
+ul {
+  list-style-type: square;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* ---------- lista ordenada ---------- */
+ol {
+  list-style-type: 1;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* ---------- centralizar imagem ---------- */
+img.displayed {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- linhas horizontais ---------- */
+hr {
+  border: 1px dashed #aaa;
+}
+hr.line {
+  border: 2px solid burlywood;
+}
+
+/* ---------- tabela ---------- */
+table {
+  float: center;   
+  width: 115%;
+}
+
+
+/* abreviação */
+abbr {
+  text-decoration:underline dashed;
+  font-size: 20px;
+}
+abbr:hover {
+  /*background-color: tan;*/
+  color: goldenrod;
+  cursor:cell;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------
+   = = = = = = = = = = = = = = = RESPONSIVIDADE = = = = = = = = = = = = = = = = = = = = = = = = */
+    
+/*  Layout responsivo - quando a tela tem menos de 800 px de largura, empilhe as duas colunas 
+    uma em cima da outra em vez de uma ao lado da outra.
+*/
+@media screen and (max-width: 800px) {    /*tela de mídia e largura máxima*/
+  .leftcolumn, .rightcolumn {             /*coluna esquerda e direita*/
+    width: 100%;                          /*largura*/
+    padding: 0;                            /*preenchimento*/
+  }
+}
+/* Layout responsivo - quando a tela tem menos de 400 px de largura, empilhe os links de navegação 
+   uns sobre os outros, em vez de próximos uns dos outros 
+*/
+@media screen and (max-width: 400px) {        /*tela de mídia e largura máxima*/
+  .topnav a {
+    float: none;                             /*flutuar: nenhum;*/
+    width: 100%;                             /*largura*/
+  }
+}
+
+
+ 

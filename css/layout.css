@@ -1,0 +1,72 @@
+/* LAYOUT COMPLETO EM CSS 3 */
+*{margin:1px; padding:1px; background-color: yellow;}
+
+#container{
+    margin: 0px auto 0px auto;
+    width: 500px;
+    min-width: 100%;
+    background-color: blue;
+}
+
+#cabecalho{
+    /*margem*/ margin: 0px auto 0px auto; 
+    /*comprimento*/ width: 500px;
+    min-width: 100%;
+    /*altura*/ height: 60px;
+    /*posição*/ position: relative;
+    background-color: red;
+}
+
+#corpo{
+    margin:1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /*altura mínima*/ min-height: 250px;
+    background-color: chartreuse;
+}
+
+nav{
+    margin: 0px auto 0px auto;
+    /*tamanho*/ width: 100px;
+    /*altura*/ height: 250px;
+    /*posição*/ float: left;
+    background-color: firebrick;
+}
+
+section{
+    margin: 0px auto 0px auto;
+    /*margem esquerda*/ margin-left: 10px;
+    /*comprimento*/ width: 500px;
+    /*altura*/ height: 250px;
+    /*posição*/ float: left;
+    background-color: darkcyan;
+}
+
+.cabecalho_artigo{
+    margin: 0px auto 0px auto;
+    /*margem esquerda*/ margin-left: 10px;
+     /*margem superior*/ margin-top: 10px;
+    /*comprimentoo*/ width: 478px;
+    /*altura*/ height: 50px;
+    /*posição*/ float: left;
+    background-color: whitesmoke;
+}
+
+.artigo{
+    margin: 0px auto 0px auto;
+    /*margem esquerda*/ margin-left: 10px;
+    /*margem superior*/ margin-top: 10px;
+    /*comprimentoo*/ width: 478px;
+    /*altura*/ height: 120px;
+    /*posição*/ float: left;
+    background-color: orangered;
+}
+
+.rodape_artigo{
+    margin: 0px auto 0px auto;
+    margin: 10px;
+    /*comprimentoo*/ width: 478px;
+    /*altura*/ height: 25px;
+    /*posição*/ float: left;
+    background-color: greenyellow;
+}
