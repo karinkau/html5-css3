@@ -3,7 +3,7 @@
 ======================================================= */
 @charset  "UTF-8";
 
-/*Dimensão da caixa universal: caixa de borda */
+/*Dimensão da caixa: caixa de borda*/
 * { box-sizing: border-box;}
 
 body {           
@@ -16,7 +16,7 @@ body {
   margin-right: 0px;
 }
 
-/* ---------- cabeçalho do site ---------- */
+/*cabeçalho do site*/
 .header {
   padding: 0.1px;       
   text-align: center;  
@@ -24,35 +24,35 @@ body {
   color: bisque;
 
 }
-/* h1 - título header */
+/*h1 - título header*/
   header.h1 {         
   font-size: 25px;  
   font-weight: 800px; 
 }
 
-/* ---------- Coluna esquerda ---------- */
+/*Coluna esquerda*/
 .leftcolumn {   
-  float: left;   /*flutuar: esquerda*/
-  width: 75%;    /*largurar*/
+  float: left;   
+  width: 75%;    
 }
 
-/* ---------- Coluna direita ---------- */
+/*Coluna direita*/
 .rightcolumn {
-  float: left;       /*flutuar: esquerda*/
-  width: 25%;        /*largurar*/
-  background-color: #f1f1f1;  /*cor de fundo*/
-  padding-left: 30px;          /*preenchimento esquerdo*/
+  float: left;       
+  width: 25%;        
+  background-color: #f1f1f1;  
+  padding-left: 30px;          
   margin-top: 20px;
 }
 
-/* ---------- Limpar os flutuadores após as colunas ---------- */
+/*main*/
 .row:after {
-  content: "";        /*conteúdo*/
-  display: table;     /*exibição em tabela*/
-  clear: both;       /*limpar ambos*/
+  content: "";        
+  display: table;     
+  clear: both;       
 }
 
-/* ---------- rodapé linha  ---------- */
+/*rodapé linha*/
 .footer {
   padding: 0.1px; 
   text-align: center;   
@@ -61,13 +61,13 @@ body {
   margin:0.1px;
 }
 
-/* ---------- cartão dos artigos ---------- */
+/*cartão dos artigos*/
 .card {
   background-color: white;  
   padding: 20px;              
   margin:10px;         
 }
-/* ---------- cartão dos exercícios ---------- */
+/*cartão dos exercícios*/
 .cardexercicio {
   background-color: navajowhite; 
   padding: 20px; 
@@ -75,15 +75,15 @@ body {
   
 }
 
-/* ---------- imagem falsa ---------- */
+/*imagem falsa*/
 .fakeimg {
-  background-color: #aaa;  /*cor de fundo*/
-  width: 100%;               /*largura*/
-  padding: 50px;             /*preenchimento*/
+  background-color: #aaa;  
+  width: 100%;               
+  padding: 50px;            
   border-radius: 10px;
 }
 
-/* ---------- textos pré-formatados ---------- */
+/*textos pré-formatados*/
 pre {
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
@@ -92,7 +92,7 @@ pre {
   text-align: left;
 }
 
-/* ---------- parágrafo geral ---------- */
+/*parágrafo geral*/
 p {
   font-size: 18px;
   font-style: normal;
@@ -101,7 +101,7 @@ p {
   text-align: justify;
 }
 
-/* ---------- títulos h1 ao h6 ---------- */
+/*títulos h1 ao h6*/
 h1 {
   font-size: 35px;
 }
@@ -121,28 +121,28 @@ h6 {
   font-size: 14px;
 }
 
-/* ---------- lista não ordenada ---------- */
+/*lista não ordenada*/
 ul {
   list-style-type: square;
   font-weight: 500;
   font-size: 20px;
 }
 
-/* ---------- lista ordenada ---------- */
+/*lista ordenada*/
 ol {
   list-style-type: 1;
   font-weight: 500;
   font-size: 20px;
 }
 
-/* ---------- centralizar imagem ---------- */
+/*centralizar imagem*/
 img.displayed {
   display:block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* ---------- linhas horizontais ---------- */
+/*linhas horizontais*/
 hr {
   border: 1px dashed #aaa;
 }
@@ -150,14 +150,14 @@ hr.line {
   border: 2px solid burlywood;
 }
 
-/* ---------- tabela ---------- */
+/*tabela*/
 table {
   float: center;   
   width: 115%;
 }
 
 
-/* abreviação */
+/*abreviação*/
 abbr {
   text-decoration:underline dashed;
   font-size: 20px;
@@ -170,25 +170,24 @@ abbr:hover {
 
 
 
-/*---------------------------------------------------------------------------------------------
-   = = = = = = = = = = = = = = = RESPONSIVIDADE = = = = = = = = = = = = = = = = = = = = = = = = */
+/*  = = = = = = RESPONSIVIDADE = = = = = = 
     
-/*  Layout responsivo - quando a tela tem menos de 800 px de largura, empilhe as duas colunas 
-    uma em cima da outra em vez de uma ao lado da outra.
+  Layout responsivo - quando a tela tem menos de 800px de largura, 
+  empilhe as duas colunas uma em cima da outra em vez de uma ao lado da outra.
 */
-@media screen and (max-width: 800px) {    /*tela de mídia e largura máxima*/
-  .leftcolumn, .rightcolumn {             /*coluna esquerda e direita*/
-    width: 100%;                          /*largura*/
-    padding: 0;                            /*preenchimento*/
+@media screen and (max-width: 800px) { 
+  .leftcolumn, .rightcolumn {            
+    width: 100%;                        
+    padding: 0;                         
   }
 }
-/* Layout responsivo - quando a tela tem menos de 400 px de largura, empilhe os links de navegação 
-   uns sobre os outros, em vez de próximos uns dos outros 
+/*Layout responsivo - quando a tela tem menos de 400px de largura, 
+  empilhe os links de navegação uns sobre os outros. 
 */
-@media screen and (max-width: 400px) {        /*tela de mídia e largura máxima*/
+@media screen and (max-width: 400px) {        
   .topnav a {
-    float: none;                             /*flutuar: nenhum;*/
-    width: 100%;                             /*largura*/
+    float: none;                  
+    width: 100%;                   
   }
 }
 
