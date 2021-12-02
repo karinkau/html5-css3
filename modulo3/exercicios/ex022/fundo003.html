@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+     <!--
+        exercício ex022 - capítulo 19 - aula 04
+        configurando posição da imagem de fundo
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Posição dos fundos</title>
+
+    <!--estilo das caixas-->
+    <style>
+        div.bloco{
+            background-image: url(./imagens/wallpaper003.jpg);
+            height: 200px;
+            border: 1px solid #000000;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        div#q1{ /*caixa 1*/
+            background-position: left top;
+        }
+        div#q2{ /*caixa 2*/
+            background-position: left center;
+        }
+        div#q3{ /*caixa 3*/
+            background-position: right bottom;
+        }
+        div#q4{ /*caixa 4*/
+            background-position: center center;
+        }
+    </style>
+</head>
+<body>
+    <!--caixa de imagem 1-->
+    <div class="bloco" id="q1"></div>
+
+    <!--caixa de imagem 2-->
+    <div class="bloco" id="q2"></div>
+
+    <!--caixa de imagem 3-->
+    <div class="bloco" id="q3"></div>
+
+    <!--caixa de imagem 4-->
+    <div class="bloco" id="q4"></div>
+</body>
+</html>
