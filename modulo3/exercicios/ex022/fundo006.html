@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+     <!--
+        exercício ex022 - capítulo 19 - aula 06
+        Background-attachment e shorthand
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fundo fixo de tela</title>
+
+    <style>
+        body{
+            height: 100vh; /* viewport */
+            /*
+            ▬▬▬▬ SUBSTITUIR AS LINHAS POR SHORTHAND ▬▬▬▬
+            background-color: black; 
+            background-image: url(./imagens/wallpaper002.jpg);
+            background-position: center center;
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed; 
+            
+            SHORTHAND: */
+            background: black url(./imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+            /*
+                background-attachment: scroll ▬ fundo rola junto com conteúdo
+                background-attachment: fixed 
+
+                ▬ size: cover + attachment: fixed = melhor escolha!!
+        
+                background-size: auto - padrão
+                background-size: 1000px
+                background-size: 100%
+                background-size: 100% 100% - distorce a imagem
+                background-size: contain - 100% exibida
+                background-size: cover - não exibe 100% da imagem mas ocupa 100% da viewport
+
+                ▬▬▬ SHORTHAND ▬▬▬ background _______________________________
+                color - image - position - repeat - [size] - attachment
+
+                background: black url() center center no-repeat cover fixed;
+
+                ☻ conforme aula: a propriedade size-cover não funciona na shorthand
+            */
+        }
+        main{
+            background-color: white;
+            max-width: 700px;
+            padding: 10px;
+            margin: auto;
+            border: 2px solid darkblue;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur harum voluptas recusandae ipsum aspernatur perspiciatis, veniam sit quos ullam. Culpa illum voluptates cumque molestias eveniet in deleniti omnis quas?</p>
+    </main>
+</body>
+</html>
