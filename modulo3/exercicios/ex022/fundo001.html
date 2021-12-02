@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <!--
+        exercício ex022 - capítulo 19 - aula 02
+        colocar imagem de fundo
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Teste de imagem de fundo</title>
+
+    <!--estilo da página-->
+    <style>
+        body{ background-image: url(./imagens/wallpaper001.jpg); }
+
+        div.quadrado{
+            display: inline-block;
+            border: 2px solid #000000;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+        }
+        div#q1{ /*fundo com cor*/
+            background-color: skyblue;
+        }
+        div#q2{ /*fundo com cor em gradiente*/
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+        div#q3{ /*fundo com imagem*/
+            background-image: url(./imagens/pattern001.png);
+        }
+    </style>
+</head>
+<body>
+    <!--fundo com cor-->
+    <div class="quadrado" id="q1"></div>
+
+    <!--fundo com cor em gradiente-->
+    <div class="quadrado" id="q2"></div>
+
+    <!--fundo com imagem-->
+    <div class="quadrado" id="q3"></div>
+</body>
+</html>
