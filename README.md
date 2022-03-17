@@ -1,8 +1,17 @@
-# 🟡 Aprendendo HTML5 e CSS3
+# 🌏 Aprendendo HTML5 e CSS3
 
-[![Aprendendo Html5 e Css3](https://img.shields.io/badge/2022-Aprendendo_HTML5_e_CSS3_com_o_Prof._Gustavo_Guanabara_pelo_Curso_em_Vídeo-FF4500?labelColor=0000CD&logo=square&logoColor=00BFFF&logoWidth=20&style=flat-square)](https://www.cursoemvideo.com/)
+[![Aprendendo Html5 e Css3](https://img.shields.io/badge/2022-Aprendendo_HTML_5-FF4500?labelColor=000&logo=html5&logoColor=FF4500&logoWidth=20&style=flat-square)](https://www.cursoemvideo.com/) ◾
+[![Aprendendo Html5 e Css3](https://img.shields.io/badge/2022-Aprendendo_CSS_3-0000FF?labelColor=000&logo=css3&logoColor=0000FF&logoWidth=20&style=flat-square)](https://www.cursoemvideo.com/)
 
-**Curso de HTML5 E CSS3** realizado pelo Curso em Vídeo com o Professor Gustavo Guanabara. Aqui está todo o meu aprendizado no curso, os exercícios realizados e os desafios propostos.
+O **Curso de HTML5 e CSS3** ensina a criar sites usando a linguagem de marcação de hipertexto (HTML) e as folhas de estilo em cascata (CSS), todas em suas versões mais recentes.
+
+No curso, o qual é baseado esse site, o Professor Gustavo Guanabara, do Curso em Vídeo, criou um conjunto de vídeo-aulas disponíveis na playlist do YouTube, mais exercícios e desafios por módulos, material de apoio em forma de e-book com 30 capítulos ao todo.
+
+Aqui ficará disponível todos os PDFs e documentos relativos ao curso. Também, todos os exercícios e desafios realizados. Todos os links relativos, imagens e demais criações ao longo do curso.
+
+Por fim, foi criado um site para demonstrar todo o meu aprendizado com as linguagens, HTML5 e CSS3.
+
+👍 [Acesse o site do curso](https://karinkau.github.io/html5-css3/index.html)
 
 ♦ Desenvolvimento Front-End → HTML 5 + CSS3 + JS  
 
@@ -84,7 +93,7 @@ ___
 ♦ [Imagem em formato circular](https://karinkau.github.io/javascript/exercicios/aula12ex/imagem-em-formato-circular.pdf)
 
 
-## [Site do curso Html 5 e Css 3](https://karinkau.github.io/html5-css3/index.html)
+### 👍 [Acesse o site do curso](https://karinkau.github.io/html5-css3/index.html)
 ___
 
 <kbd>`ass:` *Karine s m Rodrigues* @karinkau</kbd>
