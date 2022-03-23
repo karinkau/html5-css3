@@ -31,14 +31,14 @@ ___
 - [x] Capítulo 3 - aula 2 - front-end e back-end
 - [x] Capítulo 4 - aula 1 - instalando ferramentas
 - [x] Capítulo 4 - aula 2 - primeiro código
-- [ ] Capítulo 5 - aula 1 - parágrafos e quedas
-- [ ] Capítulo 5 - aula 2 - símbolos e emojis
-- [ ] Capítulo 6 - aula 1 - direito de uso da imagem
-- [ ] Capítulo 6 - aula 2 - formatos para imagem na web
-- [ ] Capítulo 6 - aula 3 - tamanho de imagem
-- [ ] Capítulo 6 - aula 4 - tag img em Html5
-- [ ] Capítulo 6 - aula 5 - mudar favicon de site
-- [ ] Capítulo 7 - aula 1 - hierarquia de títulos
+- [x] Capítulo 5 - aula 1 - parágrafos e quedas
+- [x] Capítulo 5 - aula 2 - símbolos e emojis
+- [x] Capítulo 6 - aula 1 - direito de uso da imagem
+- [x] Capítulo 6 - aula 2 - formatos para imagem na web
+- [x] Capítulo 6 - aula 3 - tamanho de imagem
+- [x] Capítulo 6 - aula 4 - tag img em Html5
+- [x] Capítulo 6 - aula 5 - mudar favicon de site
+- [x] Capítulo 7 - aula 1 - hierarquia de títulos
 - [ ] Capítulo 8 - aula 1 - semântica na HTML5 
 - [ ] Capítulo 8 - aula 2 - negrito e itálico 
 - [ ] Capítulo 8 - aula 3 - formatações adicionais 
