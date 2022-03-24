@@ -1,47 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formatação de textos</title>
     <style>
-        mark{background-color: lime;}
+        mark{background-color: lightgreen;}
     </style>
 </head>
-
 <body>
     <h1>PRINCIPAIS FORMATAÇÕES</h1>
+    <hr>
     <h2>Negrito ou destaque</h2>
-    <!--Tag B obsoleta e a atual Strong-->
-    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag b do antigo Html que visa apenas a forma. NÃO SEMÂNTICA.</p>
+    <!--Tag b é obsoleta em HTML5-->
+
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B do antigo Html que visa apenas a forma. NÃO SEMÂNTICA.</p>
+
     <P>Nesta frase temos um <strong>termo em destaque</strong> usando a tag strong que visa o significado. TAG SEMÂNTICA.</P>
-    <!--Tag i obsoleta e a atual tag Em -->
+
+    <hr>
     <h2>Itálico ou ênfase</h2>
+    <!--Tag i obsoleta é obsoleta em HTML5-->
+
     <p>Nesta frase temos um <i>termo em itálico usando</i> a tag i não semântico.</p>
+
     <p>Nesta frase temos um <em>termo em destaque</em> usando a tag Em semântico.</p>
-    <!--FORMATAÇÕES ADICIONAIS-->
+
+    <hr>
     <h2>Texto marcado</h2>
+    <!--alterando cor do marcador-->
+
     <p>Podemos também usar <mark style="background-color: chartreuse;">um texto marcado</mark> usando a tag Mark</p>
-    <!--EXEMPLOS DE MARCADOR PADRÃO -->
-    <p><mark>Lorem ipsum</mark> dolor sit, amet consectetur adipisicing elit. <mark>Eligendi mollitia</mark> itaque obcaecati fuga quam porro ipsum, autem magnam labore enim voluptate dolorem voluptatem quas eos repudiandae tempore <mark>dolor animi aliquam!</mark></p>
-    <!--TAG BIG→obsoleta - TAG SMALL-->
+
+    <p>Esse é o <mark>marcador padrão</mark> na cor amarela.</p>
+
+    <hr>
     <h2>Texto grande e texto pequeno</h2>
+    <!--tag big é obsoleta - tag small não é-->
+
     <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
-    <!--TAG DEL-->
+
+    <hr>
     <h2>Texto deletado</h2>
     <p>Podemos marcar um <del>texto excluído</del> para indicar que ele deve ser lido, mas não considerado</p>
-    <!--TAG INS-->
+
+    <hr>
     <h2>Texto inserido</h2>
     <p>Podemos marcar um <ins>texto inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
-    <!--TAG U - obsoleta para sublinhar-->
+
+    <!--tag obsoleta-->
     <p>A <u>tag u ficou obsoleta</u> para sublinhar textos</p>
-    <!--TAG SUP-->
+
+    <hr>
     <H2>Texto sobrescrito</H2>
     <P>Para inserir textos como x<sup>20</sup> + 3</P>
-    <!--TAG SUB-->
+   
+    <hr>
     <H2>Texto subscrito</H2>
     <P>Para inserir textos tipo a formula H<sub>2</sub>O</P>
+    <hr>
 </body>
 </html>
