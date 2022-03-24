@@ -45,10 +45,10 @@ ___
 - [x] Capítulo 8 - aula 4 - citações e códigos 
 - [x] Capítulo 9 - aula 1 - listas OL e UL 
 - [x] Capítulo 9 - aula 2 - listas mistas e de definição 
-- [ ] Capítulo 10 - aula 1 - links e âncoras 
-- [ ] Capítulo 10 - aula 2 - links internos
-- [ ] Capítulo 10 - aula 3 - links para download 
-- [ ] Capítulo 10 - aula 4 - desafios propostos 
+- [x] Capítulo 10 - aula 1 - links e âncoras 
+- [x] Capítulo 10 - aula 2 - links internos
+- [x] Capítulo 10 - aula 3 - links para download 
+- [x] Capítulo 10 - aula 4 - desafios propostos - [Desafios prontos](https://karinkau.github.io/html5-css3/anotacoes/mod-1_cap-10_aula-4-desafios-propostos.pdf)
 - [ ] Capítulo 11 - aula 1 - imagens dinâmicas 
 - [ ] Capítulo 11 - aula 2 - imagens que se adaptam 
 - [ ] Capítulo 11 - aula 3 - colocando áudio no site
