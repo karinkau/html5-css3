@@ -1,53 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Outras formatações</title>
 </head>
-
 <body>
     <h1>OUTRAS FORMATAÇÕES</h1>
+    <hr>
     <h2>Código-fonte</h2>
+
+    <!--código inline-->
+    <h3>Tag &lt;code&gt;</h3>
     <p>O comando <code>document.getElementById(“teste”)</code> é escrito em linguagem JavaScript.</p>
-    <!--ENVELOPAR CODIFICAÇÃO DE LINGUAGEM-->
-    <!--Linguagem Python-->
-    <!--TAG PRE - texto pré-formatado-->
+
+    <!--código em texto-->
+    <h3>Tag &lt;pre&gt;</h3>
     <pre>
-    <code>num = int(input(‘Digite um número’))
-    if num % 2 ==0:
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
         print(f’O número {num} é par’)
     else:
         print(f’O número {num} é impar’)
-    print(‘Fim do progrrama’)
+    print('Fim do programa')
         </code>
     </pre>
-    <!--Citações simples de uma linha - tag Q-->
-    <h2>Citação simples</h2>
+
+    <hr>
+    <h2>Citação</h2>
+
+    <!--citação inline-->
+    <h3>Tag &lt;q&gt;</h3>
     <p>Como diria um pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
-    <!--Citações completas de mais linhas e blocos-->
-    <h2>citação completas</h2>
+
+    <!--Citação em bloco-->
+    <h3>Tag &lt;blockquote&gt;</h3>
     <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
-    <blockquote>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi iusto, cupiditate in enim voluptatum, laborum
-        quidem id earum dicta ipsum, at accusantium? Tenetur, iste vitae. Quaerat, quos. Nesciunt, odit eveniet!
+    
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_e_CSS_Para_Leigos/E8ZtDwAAQBAJ?hl=pt-BR&gbpv=1&dq=html+para+leigos&printsec=frontcover">
+        A diferença entre elementos inline e um bloco de texto é importante. <br>      
+        Os elementos HTML neste capítulo descrevem os blocos de texto.
     </blockquote>
-    <blockquote cite="https://pt.wikipedia.org/wiki/Cita%C3%A7%C3%A3o">
-        Com referencia ao texto sobre Manoel Demétrio de Oliveira (Guerra do Paraguai), com relação a fonte confiável,
-        podemos citar um livro da Biblioteca Militar, volume XXIX, com Titulo de O PARANÁ NA GUERRA DO PARAGUAI, tendo
-        como Editor Davi Carneiro - Datado de Rio de Janeiro 1940, onde cita na pagina 64 a historia sobre o feito do
-        Sr. Manoel Demétrio de Oliveira.
-    </blockquote>
-    <!--ABREVIAÇÕES-->
-    <h2>Abrebiações</h2>
+
+    <hr>
+    <h2>Abreviação</h2>
+
+    <!--abreviação-->
+    <h3>Tag &lt;abbr&gt;</h3>
     <p>Estou estudando <abbr title="HyperText Markup Language - Linguagem de marcação de hipertexto">HTMl</abbr> e <abbr title="Cascading Style Sheets - folhas de estilo em cascata">CSS</abbr>. Estou adorando.</p>
-    <!--TEXTO INVERTIDO-->
+    
+    <hr>
     <h2>Texto invertido</h2>
+
+    <!--texto invertido-->
+    <h3>Tag &lt;bdo&gt;</h3>
     <p>
-        <bdo dir="ltr">Karine Rodrigues</bdo><br>
+        <bdo dir="ltr">Karine Rodrigues</bdo>
+        <br>
         <bdo dir="rtl">Karine Rodrigues</bdo>
     </p>
+    <hr>
 </body>
 </html>
