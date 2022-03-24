@@ -39,10 +39,10 @@ ___
 - [x] Capítulo 6 - aula 4 - tag img em Html5
 - [x] Capítulo 6 - aula 5 - mudar favicon de site
 - [x] Capítulo 7 - aula 1 - hierarquia de títulos
-- [ ] Capítulo 8 - aula 1 - semântica na HTML5 
-- [ ] Capítulo 8 - aula 2 - negrito e itálico 
-- [ ] Capítulo 8 - aula 3 - formatações adicionais 
-- [ ] Capítulo 8 - aula 4 - citações e códigos 
+- [x] Capítulo 8 - aula 1 - semântica na HTML5 
+- [x] Capítulo 8 - aula 2 - negrito e itálico 
+- [x] Capítulo 8 - aula 3 - formatações adicionais 
+- [x] Capítulo 8 - aula 4 - citações e códigos 
 - [ ] Capítulo 9 - aula 1 - listas OL e UL 
 - [ ] Capítulo 9 - aula 2 - listas mistas e de definição 
 - [ ] Capítulo 10 - aula 1 - links e âncoras 
