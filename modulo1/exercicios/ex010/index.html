@@ -1,78 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<!--Atualização: 07/12/2020-->
-
-<!--Cabeçalho - configurações principais-->
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalhando com links</title>
+    <style>
+        hr.pontilhado{border: 1px dashed rgb(41, 129, 6);}
+        hr.forte{height:5px;border-width:0;background-color:rgb(41, 129, 6);}
+        hr.linha{height:2px;border-width:0;background-color:rgb(41, 129, 6);}
+        body {font: normal 12pt black Verdana; font-family: Verdana;}
+    </style>
 </head>
-
-<body><!--Main - início da página principal-->
-    <hr style="border: 1px dashed rgb(41, 129, 6);" />
-    <hr style="height:5px;border-width:0;background-color:rgb(41, 129, 6)">
-    <h1>index</h1>
-    <hr style="height:5px;border-width:0;background-color:rgb(41, 129, 6)">
-    <hr style="border: 1px dashed rgb(41, 129, 6);" />
-    <br>
-
-    <!----------LINKS EXTERNOS------------>
+<body>
+    <hr class="pontilhado">
+    <hr class="forte">
+    <h1>░ Index</h1>
+    <hr class="forte">
+    <hr class="pontilhado">
+    
+    <!--link externo-->
     <h2>Usando links externos</h2>
-    <p>Esse é o <a href="https:///gustavoguanabara.github.io" target=”_blank” rel=”external”>repositório público no Git</a> de Gustavo Guanabara.</p>   
-    <p>Acesse também <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo/playlists" target="_blank" rel="external">Canal gratuito no YouTube</a></p>
-    <a href="http://estudandoesperanto.com/" target="_blank" rel="external" hreflang="pt-br">Estudando Esperanto</a>
-    <br>
-    <hr style="height:2px;border-width:0;background-color:rgb(41, 129, 6)">
-    
-    
-    <!------------LINKS INTERNO------------>
+    <p>
+        Esse é o <a href="https:///gustavoguanabara.github.io" target=”_blank” rel=”external”>repositório público no Git</a> de Gustavo Guanabara.
+    </p>   
+    <p>
+        Acesse também <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo/playlists" target="_blank" rel="external">Canal gratuito no YouTube</a>
+    </p>
+
+    <hr class="linha">
+    <!--link interno-->
     <h2>Usando links internos</h2>
-    <p>Esta á a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">Segunda página</a></p>
-
-    <p>Você pode acessar também <a href="noticias/pag003.html" rel="next" target="_self">Página de notícias</a></p>
-
-    <p>Visite a <a href="./pag004.html" target="_self" rel="next">Quarta página</a></p>
-
-    <p>Visite a <a href="./pag005.html" target="_self" rel="next">Quinta página</a></p>
-    <br>
-    <hr style="height:2px;border-width:0;background-color:rgb(41, 129, 6)">
-    <!------------LINKS PARA DOWNLOAD------------>
+    <p>
+        Esta á a primeira página do site. Se você quiser, pode acessar também a minha 
+        <a href="pag002.html" rel="next">Segunda página</a>
+    </p>
+    <p>
+        Você pode acessar também 
+        <a href="noticias/pag003.html" rel="next">Página de notícias</a>
+    </p>
+    
+    <hr class="linha">
+    <!--link para download-->
     <h2>Links para download</h2>
     <ul>
-        <li><a href="livro/ligações-em-toda-parte.pdf" download="ligações-em-toda-parte" type="application/pdf">Baixar livro em pdf</a></li>
-        <li><a href="livro/ligações-em-toda-parte.rar" download="ligações-em-toda-parte.rar" type="application/rar">Livro compactado em rar</a></li>
+        <li>
+            <a href="livro/ligações-em-toda-parte.pdf" download="ligações-em-toda-parte" type="application/pdf">Visualizar livro em pdf</a>
+        </li>
+        <li>
+            <a href="livro/ligações-em-toda-parte.rar" download="ligações-em-toda-parte.rar" type="application/rar">Baixar livro RAR</a>
+        </li>
     </ul>
-    <hr style="height:2px;border-width:0;background-color:rgb(41, 129, 6)">
-    <h2>Navegando por pastas locais ./ ou ../ </h2>
-    <p><a href="../ex004/index.html">Pasta ex004</a></p>
-    <p><a href="./livro/ligações-em-toda-parte.pdf">Livro pdf</a></p>
-    <br>
-    <hr style="height:2px;border-width:0;background-color:rgb(41, 129, 6)">
-    <hr style="border: 1px dashed rgb(41, 129, 6);" /><!--hr quadradinhos-->
-
+    
+    <hr class="forte">
+    <hr class="pontilhado">
 </body>
-    <!--ATRIBUTO TARGET---------------------------------------->
-    <!--_blank → vai abrir o link em uma nova janela em branco -->
-    <!--_self → vai abrir o link na janela ou frame atual (padrão) -->
-
-    <!--ATRIBUTO REL---------------------------------------------->
-    <!--next → indica que o link é para a próxima parte do documento atual -->
-    <!--prev → indica que o link é para a parte anterior do documento atual-->
-    <!--author → indica que é um link para o site do autor do artigo atual -->
-    <!--external → indica que é um link para outro site que não faz parte do site atual -->
-    <!--nofollow → indica que é um link para um site não endossado, como um link pago -->
-    <!--[./] ► pasta atual do servidor-->
-    <!--[../] ► voltar um nível para a pasta mais externa-->
-
-    <!--MEDIA TYPES--------------------------------------->
-    <!--
-    ‣ application/zip        ‣ video/mp4 
-    ‣ text/html              ‣ video/H264 
-    ‣ text/css               ‣ video/JPEG 
-    ‣ text/javascript        ‣ audio/aac
-    ‣ font/ttf               ‣ audio/mpeg 
-    ‣ image/jpeg 
-    ‣ image/png -->
 </html>

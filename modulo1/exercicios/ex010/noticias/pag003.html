@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terceira página</title>
+    <style>
+        hr.pontilhado{border: 1px dashed rgb(41, 129, 6);}
+        hr.forte{height:5px;border-width:0;background-color:rgb(41, 129, 6);}
+        hr.linha{height:2px;border-width:0;background-color:rgb(41, 129, 6);}
+        body {font: normal 15pt black; font-family: Verdana;}
+    </style>
 </head>
-
 <body>
-    <hr style="border: 1px dashed rgb(41, 129, 6);" />
-    <hr style="height:5px;border-width:0;background-color:rgb(41, 129, 6)">
-    <h1>Terceira página</h1>
-    <hr style="height:5px;border-width:0;background-color:rgb(41, 129, 6)">
-    <hr style="border: 1px dashed rgb(41, 129, 6);" />
-    <br>
+    <hr class="pontilhado">
+    <hr class="forte">
+    <h1>░ Terceira página</h1>
+    <hr class="forte">
+    <hr class="pontilhado">
+
     <p>Esta é a terceira página.</p>
-    <a href="../index.html" target="_self" rel="prev">Voltar ao início</a>
-
+    <a href="../index.html" rel="prev">Voltar ao índex</a>
 </body>
-
 </html>
