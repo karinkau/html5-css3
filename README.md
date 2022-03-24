@@ -43,8 +43,8 @@ ___
 - [x] Capítulo 8 - aula 2 - negrito e itálico 
 - [x] Capítulo 8 - aula 3 - formatações adicionais 
 - [x] Capítulo 8 - aula 4 - citações e códigos 
-- [ ] Capítulo 9 - aula 1 - listas OL e UL 
-- [ ] Capítulo 9 - aula 2 - listas mistas e de definição 
+- [x] Capítulo 9 - aula 1 - listas OL e UL 
+- [x] Capítulo 9 - aula 2 - listas mistas e de definição 
 - [ ] Capítulo 10 - aula 1 - links e âncoras 
 - [ ] Capítulo 10 - aula 2 - links internos
 - [ ] Capítulo 10 - aula 3 - links para download 
