@@ -1,36 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vídeos com HTML 5</title>
-    <link rel="stylesheet" href="style.css">
+   <style>
+       hr{padding: 5px; background-color: pink;}
+       body{background-color: palevioletred; margin: 50px; padding: 20px; margin-top: 0px; padding-top: 5px;}
+   </style>
 </head>
 <body>
     <h1>Inserindo vídeos hospedados localmente</h1>
     <p>Este vídeo está hospedado no meu próprio servidor.</p>
 
-    <hr>
-    <h2>versões de vídeos</h2>
-    
-    <video width="560" poster="./img/limoes-capa.png" controls autoplay loop>   
-        <source src="./midias/limoes-em-queda-mp4.mp4" type="video/mp4">
-        <source src="./midias/limoes-em-queda-mkv.mkv" type="video/mkv">
-        <source src="./midias/limoes-em-queda-m4v.m4v" type="video/m4v">
-        <source src="./midias/limoes-em-queda-webm.webm" type="video/webm"> 
-        <source src="./midias/limoes-em-queda-ogv.ogv" type="video/ogg">
-        <p>Seu navegador não tem compatibilidade com a reprodução de vídeos.</p>
-    </video>
-    <hr>
+    <!--formato de inserção simples - não usar! 
+    <h2>Várias versões dos vídeos</h2>
 
-    <h1>inserindo vídeos do youtube</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ugQuUigKSwg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <hr>
-    <h1>inserindo vídeos do Vimeo</h1>
-    <iframe src="https://player.vimeo.com/video/425772649?color=ff0179&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-    <hr>
     <h3>vídeo mp4</h3>
     <video src="./midias/limoes-em-queda-mp4.mp4" width="500" controls></video>
 
@@ -45,7 +31,29 @@
 
     <h3>vídeo mkv</h3>
     <video src="./midias/limoes-em-queda-mkv.mkv" width="500" controls></video>
+    -->
 
+    <!--melhor versão para inserção de vídeo-->
     
+    <video width="560" poster="./img/limoes-capa.png" controls autoplay loop>   
+        <!--exibir 1º do menor para o maior-->
+        <source src="./midias/limoes-em-queda-mp4.mp4" type="video/mp4">
+        <source src="./midias/limoes-em-queda-mkv.mkv" type="video/mkv">
+        <source src="./midias/limoes-em-queda-m4v.m4v" type="video/m4v">
+        <source src="./midias/limoes-em-queda-webm.webm" type="video/webm"> 
+        <source src="./midias/limoes-em-queda-ogv.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com a reprodução de vídeos.</p>
+    </video>
+
+    <hr>
+    <h1>inserindo vídeos do youtube</h1>
+    <!--código de incorporação do YouTube-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jTWb-RIdN-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <hr>
+    <h1>inserindo vídeos do Vimeo</h1>
+    <!--código de incorporação do Vimeo-->
+    <iframe src="https://player.vimeo.com/video/425772649?h=606ccc60b1&color=c9ff23&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <hr>
 </body>
 </html>
