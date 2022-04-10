@@ -52,10 +52,10 @@ ___
 - [x] Capítulo 11 - aula 1 - imagens dinâmicas 
 - [x] Capítulo 11 - aula 2 - imagens que se adaptam 
 - [x] Capítulo 11 - aula 3 - colocando áudio no site
-- [ ] Capítulo 11 - aula 4 - formatos de vídeo para site
-- [ ] Capítulo 11 - aula 5 - vídeos com hospedagem própria
-- [ ] Capítulo 11 - aula 6 - incorporar vídeos externos
-- [ ] Capítulo 11 - aula 7 - desafio: um site com vídeos
+- [x] Capítulo 11 - aula 4 - formatos de vídeo para site
+- [x] Capítulo 11 - aula 5 - vídeos com hospedagem própria
+- [x] Capítulo 11 - aula 6 - incorporar vídeos externos
+- [x] Capítulo 11 - aula 7 - desafio: um site com vídeos
 - [ ] Capítulo 12 - aula 1 - estilo Css inline
 - [ ] Capítulo 12 - aula 2 - estilo Css interno
 - [ ] Capítulo 12- aula 3 - estilo Css externo
