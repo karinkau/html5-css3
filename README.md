@@ -56,10 +56,10 @@ ___
 - [x] Capítulo 11 - aula 5 - vídeos com hospedagem própria
 - [x] Capítulo 11 - aula 6 - incorporar vídeos externos
 - [x] Capítulo 11 - aula 7 - desafio: um site com vídeos
-- [ ] Capítulo 12 - aula 1 - estilo Css inline
-- [ ] Capítulo 12 - aula 2 - estilo Css interno
-- [ ] Capítulo 12- aula 3 - estilo Css externo
-- [ ] Fim do módulo
+- [X] Capítulo 12 - aula 1 - estilo Css inline
+- [X] Capítulo 12 - aula 2 - estilo Css interno
+- [X] Capítulo 12- aula 3 - estilo Css externo
+- [X] Fim do módulo
 
 ## Desafios do módulo 1
 
