@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,39 +8,61 @@
     <style>
         /*CSS interno / local → altera apenas essa página*/
         body {
-            background-color: aqua;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 18px;
-        }/*fim body*/
-        h1 {
-            color: blue;
-            background-color: darkseagreen;
-        }/*fim h1*/
-        h2 {
-            color: brown;
-        }/*fim h2*/
-        p {
-            text-align: justify;
-        }/*fim p*/
+            background-color: chartreuse;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+        h1 {color: mediumblue; font-size: 1.8em; }
+
+        h1.titulo {color: mediumblue; font-size: 2em; background-color: lightgreen;}
+
+        h2 {color: darkred; font-size: 1.5em; }
+
+        p {text-align: justify;}
+
+        hr {background-color: aquamarine; padding: 0.2em; }
+
+        hr.linha {background-color: crimson; padding: 0.2em; border-radius: 20%;}
+
+        a {font-style: oblique; font-size: 25px; font-weight: 700; font-family: Arial, Helvetica, sans-serif; padding: 30px;}
     </style>
 </head>
 <body>
-    <h1 style="color: black;">Exercício 14</h1>
+    <div>
+        <hr class="linha">
+
+        <a href="./index.html" target="_self" rel="next">Exercício 13 - Inline</a>
+    
+        <a href="./externo.html" target="_self" rel="next">Exercício 15 - Externo</a>
+
+        <hr class="linha">
+    </div>
+
+    <h1 class="titulo">Exercício 14</h1>
     <hr>
     <h1>Capítulo1</h1>
-    <h2>Capítulo 1.1</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, non illum! Possimus officiis error eveniet unde, molestias placeat voluptatum officia ullam eos perspiciatis provident accusantium, architecto beatae consectetur ducimus maxime?</p>
-    <h2>Capítulo 1.2</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, non illum! Possimus officiis error eveniet unde, molestias placeat voluptatum officia ullam eos perspiciatis provident accusantium, architecto beatae consectetur ducimus maxime?</p>
-    <h1>Capítulo 2</h1>
-    <h2>Capítulo 2.1</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, non illum! Possimus officiis error eveniet unde, molestias placeat voluptatum officia ullam eos perspiciatis provident accusantium, architecto beatae consectetur ducimus maxime?</p>
 
-    <br>
-    <hr>
-    <a style="font-style: oblique; font-size: 25px; font-weight: 700; font-family: Arial, Helvetica, sans-serif; padding: 30px;" href="./index.html" target="_self" rel="next">Exercício 13 - Inline</a>
-    
-    <a style="font-style: oblique; font-size: 25px; font-weight: 700; font-family: Arial, Helvetica, sans-serif;padding: 30px;" href="./externo.html" target="_self" rel="next">Exercício 15 - Externo</a>
-    <hr>
+    <h2>Capítulo 1.1</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, non illum! Possimus officiis error eveniet unde, molestias placeat voluptatum officia ullam eos perspiciatis provident accusantium, architecto beatae consectetur ducimus maxime?
+    </p>
+
+    <h2>Capítulo 1.2</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, non illum! Possimus officiis error eveniet unde, molestias placeat voluptatum officia ullam eos perspiciatis provident accusantium, architecto beatae consectetur ducimus maxime?
+    </p>
+
+    <h1>Capítulo 2</h1>
+
+    <h2>Capítulo 2.1</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, non illum! Possimus officiis error eveniet unde, molestias placeat voluptatum officia ullam eos perspiciatis provident accusantium, architecto beatae consectetur ducimus maxime?
+    </p>
 </body>
 </html>
+
+
+
