@@ -1,44 +1,51 @@
-/*CSS externo → alterar todas as páginas
-Compatibilidade com acentuações */
+/*CSS externo → alterar todas as páginas*/
 @charset "UFT-8";
 
-/*corpo principal*/
 body {
-    background-color: floralwhite;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}/*fim body*/
+    background-color: chartreuse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
 
-/*título h1*/
 h1 {
-    color: blue;
-    background-color:hotpink;
-}/*fim h1*/
+    color: mediumblue; 
+    font-size: 1.8em;
+}
 
-/*título h2*/
+h1.titulo {
+    color: mediumblue; 
+    font-size: 2em; 
+    background-color: lightgreen;
+}
+
 h2 {
-    color: brown;
-}/*fim h2*/
+    color: darkred; 
+    font-size: 1.5em;
+}
 
-/*parágrafos*/
 p {
     text-align: justify;
-    color: darkslategrey;
-}/*fim p*/
+}
 
-/*links*/
+hr {
+    background-color: aquamarine; 
+    padding: 0.2em; 
+}
+
+hr.linha {
+    background-color: crimson; 
+    padding: 0.2em; 
+    border-radius: 20%;
+}
+
 a {
-    color: black;
-    background-color:greenyellow;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration: none;
-    font-size: 30px;
-}/*fim link*/
+    font-style: oblique; 
+    font-size: 25px; 
+    font-weight: 700; 
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 30px;
+}
 
-/*Classe de parágrafos para links ▬ textos a esquerda*/
-p.links {
-    text-align: right;
-   
-}/*fim class link
-
-
+div.externo {
+    background-color: wheat;
+}
