@@ -61,7 +61,9 @@ ___
 - [X] Capítulo 12- aula 3 - estilo Css externo
 - [X] Fim do módulo
 
-## Desafios do módulo 1
+## Desafios do módulo 1  
+
+ [Desafios do 1º módulo](https://karinkau.github.io/html5-css3/anotacoes/mod-1_cap-10_aula-4-desafios-propostos.pdf)
 
 - [x] Desafio 01 - [Desafio 01](https://karinkau.github.io/html5-css3/modulo1/desafio001.html)
 - [x] Desafio 02 - [Desafio 02](https://karinkau.github.io/html5-css3/modulo1/desafio002.html)
@@ -73,7 +75,7 @@ ___
 - [x] Desafio 08 - [Desafio 08](https://karinkau.github.io/html5-css3/modulo1/desafio008.html)
 - [x] Desafio 09 - [Desafio 09](https://karinkau.github.io/html5-css3/modulo1/desafio009.html)
 
-## ♦ Teste de HTML5 e CSS3
+## ♦ Teste de HTML5 e CSS3 
 
 ___
 
