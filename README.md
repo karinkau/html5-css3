@@ -133,7 +133,7 @@ ___
 - [x] Desafio 08 - [Desafio 08](https://karinkau.github.io/html5-css3/modulo1/desafio008.html)
 - [x] Desafio 09 - [Desafio 09](https://karinkau.github.io/html5-css3/modulo1/desafio009.html)
 
-## ♦ Teste de HTML5 e CSS3 
+## ♦ Teste de HTML5 e CSS3 - [Teste realizado](https://karinkau.github.io/html5-css3/anotacoes/teste-html5-css3-modulo-1.pdf)
 
 ___
 
