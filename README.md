@@ -19,15 +19,15 @@ ___
 
 # 🌟 Módulo 2 de 5 [40 HORAS]
 
-- [ ] Capítulo 13 Aula 00 – O que vamos aprender no módulo 02?
-- [ ] Capítulo 13 Aula 01 – Psicologia das Cores
-- [ ] Capítulo 13 Aula 02 – Representando Cores com CSS3
-- [ ] Capítulo 13 Aula 03 – Harmonia de cores
-- [ ] Capítulo 13 Aula 04 – Paleta de cores
-- [ ] Capítulo 13 Aula 05 – Como capturar cores da tela?
-- [ ] Capítulo 13 Aula 06 – Como criar degradê com CSS ?
-- [ ] Capítulo 13 Aula 07 – Criando um exemplo real
-- [ ] Capítulo 14 Aula 01 – Primeiros passos em Tipografia
+- [x] Capítulo 13 Aula 00 – O que vamos aprender no módulo 02?
+- [x] Capítulo 13 Aula 01 – Psicologia das Cores
+- [x] Capítulo 13 Aula 02 – Representando Cores com CSS3
+- [x] Capítulo 13 Aula 03 – Harmonia de cores
+- [x] Capítulo 13 Aula 04 – Paleta de cores
+- [x] Capítulo 13 Aula 05 – Como capturar cores da tela?
+- [x] Capítulo 13 Aula 06 – Como criar degradê com CSS ?
+- [x] Capítulo 13 Aula 07 – Criando um exemplo real
+- [] Capítulo 14 Aula 01 – Primeiros passos em Tipografia
 - [ ] Capítulo 14 Aula 02 – Anatomia do tipo
 - [ ] Capítulo 14 Aula 03 – Famílias de fonte com CSS
 - [ ] Capítulo 14 Aula 04 – Tamanho de fonte e suas medidas
