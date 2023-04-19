@@ -27,12 +27,12 @@ ___
 - [x] Capítulo 13 Aula 05 – Como capturar cores da tela?
 - [x] Capítulo 13 Aula 06 – Como criar degradê com CSS ?
 - [x] Capítulo 13 Aula 07 – Criando um exemplo real
-- [] Capítulo 14 Aula 01 – Primeiros passos em Tipografia
-- [ ] Capítulo 14 Aula 02 – Anatomia do tipo
-- [ ] Capítulo 14 Aula 03 – Famílias de fonte com CSS
-- [ ] Capítulo 14 Aula 04 – Tamanho de fonte e suas medidas
-- [ ] Capítulo 14 Aula 05 – Peso, estilo e shorthand font
-- [ ] Capítulo 14 Aula 06 – Usando Google Fonts
+- [x] Capítulo 14 Aula 01 – Primeiros passos em Tipografia
+- [x] Capítulo 14 Aula 02 – Anatomia do tipo
+- [x] Capítulo 14 Aula 03 – Famílias de fonte com CSS
+- [x] Capítulo 14 Aula 04 – Tamanho de fonte e suas medidas
+- [x] Capítulo 14 Aula 05 – Peso, estilo e shorthand font
+- [x] Capítulo 14 Aula 06 – Usando Google Fonts
 - [ ] Capítulo 14 Aula 07 – Usando fontes externas baixadas
 - [ ] Capítulo 14 Aula 08 – Capturando as fontes usadas em um site
 - [ ] Capítulo 14 Aula 09 – Detectando fontes dentro de imagens
