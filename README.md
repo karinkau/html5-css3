@@ -15,7 +15,7 @@ Por fim, foi criado um site para demonstrar todo o meu aprendizado com as lingua
 
 ♦ Desenvolvimento Front-End → HTML 5 + CSS3 + JS  
 
-# 🌟 Módulo 1 de 5 [40 HORAS] - [Módulo 1](https://karinkau.github.io/html5-css3/modulo1.html)
+# 🌟 Módulo 1 de 5 [40 HORAS] - [Módulo 1](https://github.com/karinkau/html5-css3/blob/main/modulo-1.md)
 
 ___
 
