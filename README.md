@@ -17,7 +17,7 @@ Por fim, foi criado um site para demonstrar todo o meu aprendizado com as lingua
 
 # 🌟 Módulo 1 de 5 [40 HORAS] - [Módulo 1](https://github.com/karinkau/html5-css3/blob/main/modulo-1.md)
 
-# 🌟 Módulo 2 de 5 [40 HORAS] - [Módulo 2]()
+# 🌟 Módulo 2 de 5 [40 HORAS] - [Módulo 2](https://github.com/karinkau/html5-css3/blob/main/modulo-2.md)
 
 ___
 
