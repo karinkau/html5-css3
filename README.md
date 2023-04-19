@@ -15,6 +15,8 @@ Por fim, foi criado um site para demonstrar todo o meu aprendizado com as lingua
 
 ♦ Desenvolvimento Front-End → HTML 5 + CSS3 + JS  
 
+# 🌟 Módulo 1 de 5 [40 HORAS] - [Módulo 1](https://karinkau.github.io/html5-css3/modulo1.html)
+
 ___
 
 # 🌟 Módulo 2 de 5 [40 HORAS]
@@ -72,68 +74,6 @@ ___
 # 🌟 Módulo 4
 
 # 🌟 Módulo 5
-
-___
-
-# 🌟 Módulo 1 de 5 [40 HORAS]
-
-- [x] Abertura do curso
-- [x] Capítulo 1 - aula 0 - o que vamos aprender
-- [x] Capítulo 1 - aula 1 - precisamos fazer um acordo 
-- [x] Capítulo 1 - aula 2 - esse curso é pra mim
-- [x] Capítulo 1 - aula 3 - melhores livros para aprender
-- [x] Capítulo 1 - aula 4 - como internet chega em casa
-- [x] Capítulo 2 - aula 1 - como a internet funciona
-- [x] Capítulo 2 - aula 2 - domínio e hospedagem
-- [x] Capítulo 3 - aula 1 - diferença entre HTML5, CSS3 e Javascript
-- [x] Capítulo 3 - aula 2 - front-end e back-end
-- [x] Capítulo 4 - aula 1 - instalando ferramentas
-- [x] Capítulo 4 - aula 2 - primeiro código
-- [x] Capítulo 5 - aula 1 - parágrafos e quedas
-- [x] Capítulo 5 - aula 2 - símbolos e emojis
-- [x] Capítulo 6 - aula 1 - direito de uso da imagem
-- [x] Capítulo 6 - aula 2 - formatos para imagem na web
-- [x] Capítulo 6 - aula 3 - tamanho de imagem
-- [x] Capítulo 6 - aula 4 - tag img em Html5
-- [x] Capítulo 6 - aula 5 - mudar favicon de site
-- [x] Capítulo 7 - aula 1 - hierarquia de títulos
-- [x] Capítulo 8 - aula 1 - semântica na HTML5 
-- [x] Capítulo 8 - aula 2 - negrito e itálico 
-- [x] Capítulo 8 - aula 3 - formatações adicionais 
-- [x] Capítulo 8 - aula 4 - citações e códigos 
-- [x] Capítulo 9 - aula 1 - listas OL e UL 
-- [x] Capítulo 9 - aula 2 - listas mistas e de definição 
-- [x] Capítulo 10 - aula 1 - links e âncoras 
-- [x] Capítulo 10 - aula 2 - links internos
-- [x] Capítulo 10 - aula 3 - links para download 
-- [x] Capítulo 10 - aula 4 - desafios propostos - [Desafios prontos](https://karinkau.github.io/html5-css3/anotacoes/mod-1_cap-10_aula-4-desafios-propostos.pdf)
-- [x] Capítulo 11 - aula 1 - imagens dinâmicas 
-- [x] Capítulo 11 - aula 2 - imagens que se adaptam 
-- [x] Capítulo 11 - aula 3 - colocando áudio no site
-- [x] Capítulo 11 - aula 4 - formatos de vídeo para site
-- [x] Capítulo 11 - aula 5 - vídeos com hospedagem própria
-- [x] Capítulo 11 - aula 6 - incorporar vídeos externos
-- [x] Capítulo 11 - aula 7 - desafio: um site com vídeos
-- [X] Capítulo 12 - aula 1 - estilo Css inline
-- [X] Capítulo 12 - aula 2 - estilo Css interno
-- [X] Capítulo 12- aula 3 - estilo Css externo
-- [X] Fim do módulo
-
-## Desafios do módulo 1  
-
- [Desafios do 1º módulo](https://karinkau.github.io/html5-css3/anotacoes/mod-1_cap-10_aula-4-desafios-propostos.pdf)
-
-- [x] Desafio 01 - [Desafio 01](https://karinkau.github.io/html5-css3/modulo1/desafio001.html)
-- [x] Desafio 02 - [Desafio 02](https://karinkau.github.io/html5-css3/modulo1/desafio002.html)
-- [x] Desafio 03 - [Desafio 03](https://karinkau.github.io/html5-css3/modulo1/desafio003.html)
-- [x] Desafio 04 - [Desafio 04](https://karinkau.github.io/html5-css3/modulo1/desafio004.html)
-- [x] Desafio 05 - [Desafio 05](https://karinkau.github.io/html5-css3/modulo1/desafio005.html)
-- [x] Desafio 06 - [Desafio 06](https://karinkau.github.io/html5-css3/modulo1/desafio006.html)
-- [x] Desafio 07 - [Desafio 07](https://karinkau.github.io/html5-css3/modulo1/desafio007.html)
-- [x] Desafio 08 - [Desafio 08](https://karinkau.github.io/html5-css3/modulo1/desafio008.html)
-- [x] Desafio 09 - [Desafio 09](https://karinkau.github.io/html5-css3/modulo1/desafio009.html)
-
-## ♦ Teste de HTML5 e CSS3 - [Teste realizado](https://karinkau.github.io/html5-css3/anotacoes/teste-html5-css3-modulo-1.pdf)
 
 ___
 
