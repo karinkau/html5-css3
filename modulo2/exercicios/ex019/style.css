@@ -1,47 +1,41 @@
 @charset "UFT-8";
 
 /*CONFIGURAÇÕES GERAIS*/
-body{
-    background-color: #d6fde9;
-    font: normal lighter 0.8em Arial, Helvetica, sans-serif;
-}
+body{background-color: #d6fde9;}
 h1{
     color: #1e402f;
+    text-align: right;
     font: oblique bold 2.3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h2{
     color: #3c805e;
+    text-indent: 50px;
     font: oblique bold 1.8em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 p{
     color: #172417;
+    text-indent: 30px;
+    font: normal lighter 1em Arial, Helvetica, sans-serif;
 }
 /*CONFIGURAÇÕES DE ID E CLASSES*/
 
-/*ID - principal */
-#principal{
+#principal{ /*ID - principal */
     text-align: center;
     color: #ffffff;
     background-color: #3c805e;
     font: oblique normal 2.7em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.infor {/* classe infor h1 */
+    font: oblique bold 2em 'Space Mono', monoespace; 
+    text-decoration: none;
+    text-align: center;
+    color: black; 
+    background-color: aquamarine;
+}
 
 /* Classes */
-.basico{
-    color: #3c805e;
-}
-.intermediario{
-    color: #80793c;
-}
-.avancado{
-    color: #803c3c;
-}
-.destaque{
-    background-color: yellow;
-}
-
-/* HTML → id ---- CSS = #
-   HTML → class ---- CSS = .
-   Dentro de um documento HTML só pode ocorrer um ID.
-*/
+.basico{color: #3c805e;}
+.intermediario{color: #80793c;}
+.avancado{color: #803c3c;}
+.destaque{background-color: yellow;}
 
