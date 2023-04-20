@@ -17,6 +17,11 @@ p{
     text-indent: 30px;
     font: normal lighter 1em Arial, Helvetica, sans-serif;
 }
+span {
+    color:yellow;
+    background-color: black;
+    font: oblique bold 1.3em Arial, Helvetica, sans-serif;
+}
 /*CONFIGURAÇÕES DE ID E CLASSES*/
 
 #principal{ /*ID - principal */
@@ -38,4 +43,5 @@ p{
 .intermediario{color: #80793c;}
 .avancado{color: #803c3c;}
 .destaque{background-color: yellow;}
+
 
