@@ -5,36 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tipos de Alinhamentos</title>
-
-    <!--Estilo de fontes-->
     <style>
-        body {font-family: normal 16px Arial, Helvetica, sans-serif; text-align: left;}
-        h1 {text-align: center;}
-        h2 {text-align: right;}
-        p {text-align: justify; text-indent: 30px;}
+        h1 {
+            text-align: center; 
+            color:forestgreen; 
+            font: oblique normal 2.5em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        h2 {
+            text-align: right; 
+            color:orangered; 
+            font: oblique bold 2em Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p {
+            text-align: justify; 
+            text-indent: 30px; 
+            font: italic normal 1em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        /* classe infor h1 */
+        .infor{
+            text-align: left;
+            font-size: 2em; 
+            color: black; 
+            background-color: aquamarine; 
+        }
+        .nave { /*classe nave*/
+            margin: 20px; 
+            padding: 20px; 
+            background-color:aquamarine; 
+            font: oblique normal 1.3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            border-radius: 10%;
+        }
     </style>
 </head>
 <body>
+    <h1 class="infor">Exercício 17 ▬ aula 10</h1>
     <h1>Tipos de alinhamentos</h1>
 
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque laborum sequi dolor maiores non. Sit ullam nam deleniti provident, rerum adipisci tempore! Quibusdam, praesentium voluptas ad magnam possimus quo reprehenderit.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolores mollitia odio consequuntur deserunt quidem obcaecati, corporis rerum facere cum, accusantium provident culpa voluptatibus aut voluptas quas accusamus ab aperiam?
-    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque laborum sequi dolor maiores non. Sit ullam nam deleniti provident, rerum adipisci tempore! Quibusdam, praesentium voluptas ad magnam possimus quo reprehenderit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolores mollitia odio consequuntur deserunt quidem obcaecati, corporis rerum facere cum, accusantium provident culpa voluptatibus aut voluptas quas accusamus ab aperiam?</p>
+
     <h2>Subtítulo do exercício</h2>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, deleniti. Magni quod fugiat ipsa aspernatur ullam maxime molestias nihil laboriosam tempore provident, repudiandae nam rem, hic quis animi laudantium eius!
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est ratione a fuga, non quam consectetur obcaecati iure corporis atque optio exercitationem laboriosam, id culpa adipisci esse quod dolores ab.
-    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, deleniti. Magni quod fugiat ipsa aspernatur ullam maxime molestias nihil laboriosam tempore provident, repudiandae nam rem, hic quis animi laudantium eius!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est ratione a fuga, non quam consectetur obcaecati iure corporis atque optio exercitationem laboriosam, id culpa adipisci esse quod dolores ab.</p>
 
     <!--navegação-->
-    <nav style="margin: 20px; padding: 20px; background-color:aquamarine; font: oblique bold 1em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
-        <a href="./fonte01.html" target="_self" rel="next">Voltar a Fonte 01</a>
+    <nav class="nave">
+        <a href="./fonte01.html" target="_self" rel="next">Fonte 01</a>
     </nav>
 </body>
 </html>
