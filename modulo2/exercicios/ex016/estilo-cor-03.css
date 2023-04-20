@@ -1,14 +1,7 @@
 @charset "UFT-8";
 
-/* Configuração global da CSS */
-* {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 /* Corpo principal do site */
-body {
-    background-image: linear-gradient(to right, #F1D8C9, #F2C3A1);
-}
+body {background-image: linear-gradient(to right, #F1D8C9, #F2C3A1);}
 
 /* Tag principal do site */
 main {
@@ -21,10 +14,10 @@ main {
 }
 
 /* parágrafos */
-p {
-    text-align: justify;
-    font-size: 1em;
-}
+p {text-align: justify; font-size: 1em;}
+
+/* classe infor h1 */
+.infor{font-size: 2em; text-shadow: none; color: black;}
 
 /* Título principal */
 h1 {
@@ -41,3 +34,10 @@ h2 {
     text-shadow: 3px 3px 3px rgba(126, 52, 52, 0.726) ;
 }
 
+.nave {
+    margin: 20px; 
+    padding: 20px; 
+    background-color:aquamarine; 
+    font: oblique normal 1.3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    border-radius: 10%;
+}

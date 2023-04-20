@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gradiente em CSS</title>
-    <!-- ESTILO LOCAL -->
     <style>
         /* configuração global da CSS */
         * {height:50%;}
         body {
-            /* Degradê é feito com back image */
+            /*Degradê é feito com back image*/
             background-image: linear-gradient(to left, #3198E2,#6D59C0,#B93590,#FDD579 25%); 
+            background-attachment:fixed;
             /*
             background-image: linear-gradient(to right, #3198E2,#6D59C0,#B93590,#FDD579 50%); 
             background-image: linear-gradient(to top, #3198E2,#6D59C0,#B93590,#FDD579 50%); 
@@ -20,16 +20,16 @@
             background-image: linear-gradient(-45deg, #3198E2,#6D59C0,#B93590,#FDD579 50%); 
             background-image: radial-gradient(circle, #3198E2,#6D59C0,#B93590,#FDD579 50%); 
             */
-            background-attachment:fixed;
         }
-        h1 {font-size: 3em;}
-        a {font-size: 1em;}
+        h1 {font-size: 2em;}
     </style>
 </head>
 <body>
-    <h1>Testando gradientes</h1>
+    <h1>Exercício 16 ▬ aula 06 <br>
+        Testando gradientes em CSS3</h1> 
+    <br>
     <!--navegação-->
-    <nav style="margin: 10px; padding: 10px; font-size: 25px;;font-weight: 700;">
+    <nav style="margin: 20px; padding: 20px; background-color:aquamarine; font: oblique normal 1.3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border-radius: 10%;">
         <a href="./cor1.html" target="_self" rel="next">Cor 01</a> ▬ 
         <a href="./cor03.html" target="_self" rel="next">Cor 03</a>
     </nav>
