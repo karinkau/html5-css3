@@ -5,24 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo de hover</title>
-
     <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px;
-        }
-        div:hover{
-            color: red;
-        }
-        div > p{
-            display: none;
-        }
+        body{font: italic normal 1.2em Verdana, Geneva, Tahoma, sans-serif;}
+        div:hover{color: red;}
+
+        /*parágrafo filho da div
+          none - não mostra nada*/
+        div > p{display: none;}
+
+        /*hover - passar o mouse em cima*/
         div:hover > p{
             display: block;
             color: white;
             background-color: red;
             width: 300px;
         }
+        /*
+            # → ID
+            . → class
+            : → pseudoclasse
+            > → filho
+        */
     </style>
 </head>
 <body>
@@ -37,7 +40,7 @@
     <p>Fim do Exemplo.</p>
 
      <!--navegação-->
-     <nav style="margin: 20px; padding: 20px; background-color:aquamarine; font-size: 25px;; font-weight: 700;">
+     <nav style="margin: 20px; padding: 20px; background-color:aquamarine; font: oblique normal 0.8em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
         <a href="./links.html" target="_self" rel="next">Links HTML</a> ▬
         <a href="./pseudoclasse.html" target="_self" rel="next">Pseudo classes</a> 
     </nav>
