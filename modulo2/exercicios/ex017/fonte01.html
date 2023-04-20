@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalhando com fontes</title>
-
-    <!-- Estilo de fontes -->
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -14,16 +12,25 @@
             text-align: center;
             /*em é a medida recomendada pela W3C */
         }
-        h1 {
-            font-size: 2em;
-            background-color: burlywood;
-        }
-        h2 { /*short hand*/
-            font: italic bolder 1.3em cursive;
+        h1 {font-size: 2.5em; color: blue; background-color:bisque;}
+
+        /* classe infor h1 */
+        .infor{font-size: 2em; color: black; background-color: aquamarine;}
+
+        h2 {font: italic bolder 1.8em cursive; color: brown;}
+
+        /*classe nave*/
+        .nave {
+            margin: 20px; 
+            padding: 20px; 
+            background-color:aquamarine; 
+            font: oblique normal 1.3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            border-radius: 10%;
         }
     </style>
 </head>
 <body>
+    <h1 class="infor">Exercício 17 ▬ aula 03 </h1>
     <h1>Trabalhando com fontes</h1>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores optio, hic sequi rem architecto illo beatae minus, fugiat laudantium facilis sapiente reiciendis tempora voluptates modi obcaecati autem minima odio porro! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste vel similique eaque est totam. Placeat praesentium aspernatur adipisci quas consequuntur illum minima, neque tempora delectus. Natus ullam odit dignissimos molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores labore alias nemo enim facilis beatae rerum sapiente vero exercitationem. Adipisci corporis omnis numquam expedita esse, dolor quas aut pariatur impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cumque quas quaerat ipsum enim, dolore sint eum asperiores illum repellendus quod hic. Odio, earum adipisci modi quos error minima quae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam molestiae beatae provident dolor, nulla ea nobis in illo repellendus harum repudiandae ad et veniam voluptatibus, qui, a corrupti velit libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ducimus, voluptatum pariatur placeat amet obcaecati nihil itaque! Eum sed distinctio sapiente aliquid dignissimos fugiat, asperiores commodi provident? Reiciendis, laboriosam tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, sapiente natus? Totam nihil illo laborum minima itaque explicabo ratione saepe, earum expedita aspernatur nostrum iusto, similique at, delectus vitae aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet est blanditiis consequuntur sapiente corporis impedit maiores, veniam, molestiae, explicabo optio neque accusamus officia nulla alias eaque dolore iste enim consectetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus iusto totam quasi aut assumenda praesentium nulla autem eaque, inventore animi rerum eum sapiente officiis expedita! Fugiat saepe vero aliquid est!</p>
@@ -33,7 +40,7 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores optio, hic sequi rem architecto illo beatae minus, fugiat laudantium facilis sapiente reiciendis tempora voluptates modi obcaecati autem minima odio porro! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium maxime voluptates, sapiente fugiat minus esse rem quam rerum iste, eius vero delectus doloremque, ex nihil totam fuga veritatis harum qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos vero dolorem? Tempora dolores sit voluptates, aut quis explicabo doloremque facilis natus vel cumque voluptate deserunt, odit itaque veritatis sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores optio, hic sequi rem architecto illo beatae minus, fugiat laudantium facilis sapiente reiciendis tempora voluptates modi obcaecati autem minima odio porro! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium maxime voluptates, sapiente fugiat minus esse rem quam rerum iste, eius vero delectus doloremque, ex nihil totam fuga veritatis harum qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos vero dolorem? Tempora dolores sit voluptates, aut quis explicabo doloremque facilis natus vel cumque voluptate deserunt, odit itaque veritatis sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores optio, hic sequi rem architecto illo beatae minus, fugiat laudantium facilis sapiente reiciendis tempora voluptates modi obcaecati autem minima odio porro! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium maxime voluptates, sapiente fugiat minus esse rem quam rerum iste, eius vero delectus doloremque, ex nihil totam fuga veritatis harum qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos vero dolorem? Tempora dolores sit voluptates, aut quis explicabo doloremque facilis natus vel cumque voluptate deserunt, odit itaque veritatis sequi.</p>
 
     <!--navegação-->
-    <nav style="margin: 20px; padding: 20px; background-color:aquamarine; font-size: 1.5em; font-weight: 700;">
+    <nav class="nave">
         <a href="./fonte02.html" target="_self" rel="next">Fonte 02</a>
     </nav>
 </body>
