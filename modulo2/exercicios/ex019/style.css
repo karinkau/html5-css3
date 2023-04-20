@@ -1,27 +1,29 @@
 @charset "UFT-8";
 
-/* ------ CONFIGURAÇÕES GERAIS EM PRIMEIRO ------ */
+/*CONFIGURAÇÕES GERAIS*/
 body{
     background-color: #d6fde9;
-    font-family: Arial, Helvetica, sans-serif;
+    font: normal lighter 0.8em Arial, Helvetica, sans-serif;
 }
 h1{
     color: #1e402f;
+    font: oblique bold 2.3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h2{
     color: #3c805e;
+    font: oblique bold 1.8em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 p{
     color: #172417;
 }
+/*CONFIGURAÇÕES DE ID E CLASSES*/
 
-/* ------ CONFIGURAÇÕES DE ID E CLASSES ------ */ 
-
-/* ID - principal */
+/*ID - principal */
 #principal{
     text-align: center;
     color: #ffffff;
     background-color: #3c805e;
+    font: oblique normal 2.7em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* Classes */
@@ -38,8 +40,8 @@ p{
     background-color: yellow;
 }
 
-
 /* HTML → id ---- CSS = #
    HTML → class ---- CSS = .
    Dentro de um documento HTML só pode ocorrer um ID.
 */
+
