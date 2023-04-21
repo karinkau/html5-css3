@@ -21,14 +21,14 @@ ___
 - [x] Capítulo 14 Aula 04 – Tamanho de fonte e suas medidas
 - [x] Capítulo 14 Aula 05 – Peso, estilo e shorthand font
 - [x] Capítulo 14 Aula 06 – Usando Google Fonts
-- [ ] Capítulo 14 Aula 07 – Usando fontes externas baixadas
-- [ ] Capítulo 14 Aula 08 – Capturando as fontes usadas em um site
-- [ ] Capítulo 14 Aula 09 – Detectando fontes dentro de imagens
-- [ ] Capítulo 14 Aula 10 – Alinhamento de textos com CSS
-- [ ] Capítulo 15 Aula 01 – Usando o id com CSS
-- [ ] Capítulo 15 Aula 02 – As diferenças entre id e class
-- [ ] Capítulo 15 Aula 03 – Pseudo-classes em CSS
-- [ ] Capítulo 15 Aula 04 – Pseudo-elementos em CSS
+- [x] Capítulo 14 Aula 07 – Usando fontes externas baixadas
+- [x] Capítulo 14 Aula 08 – Capturando as fontes usadas em um site
+- [x] Capítulo 14 Aula 09 – Detectando fontes dentro de imagens
+- [x] Capítulo 14 Aula 10 – Alinhamento de textos com CSS
+- [x] Capítulo 15 Aula 01 – Usando o id com CSS
+- [x] Capítulo 15 Aula 02 – As diferenças entre id e class
+- [x] Capítulo 15 Aula 03 – Pseudo-classes em CSS
+- [x] Capítulo 15 Aula 04 – Pseudo-elementos em CSS
 - [ ] Capítulo 16 Aula 01 – Modelo de Caixas: primeiros passos
 - [ ] Capítulo 16 Aula 02 – Modelo de Caixas na prática (pt.1)
 - [ ] Capítulo 16 Aula 03 – Modelo de Caixas na prática (Pt.2)
