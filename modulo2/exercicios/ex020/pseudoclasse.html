@@ -8,27 +8,52 @@
     <style>
         div{
             display: inline-block;
-            background-color: lightgray;
-            border: 1px solid black;
+            background-color: lightgreen;
+            border: 3px solid black;
             text-align: center;
-            height: 200px;
-            width: 200px;
+            height: 230px;
+            width: 230px;
+            font: normal bold 2.3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
-        /*pseudoclasse */
-        div:hover{
+        div:hover{ /*pseudoclasse */
             background-color: yellow;
+            border: 5px solid red;
+            color: blueviolet;
+            height: 230px;
+            width: 230px;
+        }
+        body{background-color:cornsilk;}
+        h2{
+            color: darkblue;
+            text-indent: 50px;
+            font: normal bold 2.3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .infor {/* classe infor h1 */
+            font: oblique bold 2em 'Space Mono', monoespace; 
+            text-align: center;
+            color: black; 
+            background-color: aquamarine;
+        }
+        .nave { /*classe nave*/
+            margin: 20px; 
+            padding: 20px; 
+            background-color:aquamarine; 
+            font: oblique normal 1.3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            border-radius: 10%;
+            margin-top: 3em;
         }
     </style>
 </head>
 <body>
+    <h1 class="infor">Exercício 20 ▬ aula 03</h1>
+    <h2>Passe o mouse sobre as caixas</h2>
+
     <div>01</div>
     <div>02</div>
     <div>03</div>
 
-    <h1>Passe o mouse sobre as caixas</h1>
-
     <!--navegação-->
-    <nav style="margin: 20px; padding: 20px; background-color:aquamarine; font: oblique normal 2em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+    <nav class="nave">
         <a href="./hover.html" target="_self" rel="next">Hover</a> ▬▬
         <a href="./links.html" target="_self" rel="next">Links HTML</a> 
     </nav>

@@ -6,41 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo de hover</title>
     <style>
-        body{font: italic normal 1.2em Verdana, Geneva, Tahoma, sans-serif;}
-        div:hover{color: red;}
-
-        /*parágrafo filho da div
-          none - não mostra nada*/
-        div > p{display: none;}
-
-        /*hover - passar o mouse em cima*/
-        div:hover > p{
+        h1 {
+            font: oblique bold 2em 'Space Mono', monoespace; 
+            text-align: center;
+            color: black; 
+            background-color: aquamarine;
+        }
+        h2 {
+            font: oblique bold 3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-indent: 50px;
+            color: brown;
+        }
+        p {font: italic normal 1.3em Verdana, Geneva, Tahoma, sans-serif;}
+        span {
+            font: italic normal 1.8em Verdana, Geneva, Tahoma, sans-serif;
+            color: gold; background-color: darkblue;
+        }
+        .nave { /*classe nave*/
+            margin: 20px; 
+            padding: 20px; 
+            background-color:aquamarine; 
+            font: oblique normal 1.3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            border-radius: 10%;
+            margin-top: 3em;
+        }
+        div > p{display: none;} /*none - não mostra nada*/
+        div:hover > p{/*hover - passar o mouse em cima*/
             display: block;
+            width: 500px;
+            height: 50px;
             color: white;
             background-color: red;
-            width: 300px;
+            text-indent: 50px;
+            font: oblique normal 2em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
         /*
-            # → ID
-            . → class
-            : → pseudoclasse
-            > → filho
+            ID → #id | class → .classe | Pseudoclasse → :hover | Filho → div > p
         */
     </style>
 </head>
 <body>
-    <h1>Exemplo de hover</h1>
-
-    <p>Passe o mouse sobre o texto abaixo</p>
-
+    <h1>Exercício 20 ▬ aula 03</h1>
+    <h2>Exemplo de hover</h2>
     <div>
-        passe o mouse aqui
+        <span>► ☻ PASSE O MOUSE AQUI !!!</span>
         <p>TEXTO ESCONDIDO ...</p>
     </div>
     <p>Fim do Exemplo.</p>
 
-     <!--navegação-->
-     <nav style="margin: 20px; padding: 20px; background-color:aquamarine; font: oblique normal 0.8em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+    <nav class="nave"><!--navegação-->
         <a href="./links.html" target="_self" rel="next">Links HTML</a> ▬
         <a href="./pseudoclasse.html" target="_self" rel="next">Pseudo classes</a> 
     </nav>
