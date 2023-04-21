@@ -15,23 +15,23 @@ Por fim, foi criado um site para demonstrar todo o meu aprendizado com as lingua
 
 ♦ Desenvolvimento Front-End → HTML 5 + CSS3 + JS  
 
-# 🌟 Módulo 1 de 5 [40 HORAS] - [Módulo 1](https://github.com/karinkau/html5-css3/blob/main/modulo-1.md)
+## 🌟 Módulo 1 de 5 [40 HORAS] - [Módulo 1](https://github.com/karinkau/html5-css3/blob/main/modulo-1.md)
 
-# 🌟 Módulo 2 de 5 [40 HORAS] - [Módulo 2](https://github.com/karinkau/html5-css3/blob/main/modulo-2.md)
+## 🌟 Módulo 2 de 5 [40 HORAS] - [Módulo 2](https://github.com/karinkau/html5-css3/blob/main/modulo-2.md)
 
 ___
 
-# 🌟 Módulo 3
+## 🌟 Módulo 3
 
-# 🌟 Módulo 4
+## 🌟 Módulo 4
 
-# 🌟 Módulo 5
+## 🌟 Módulo 5
 
 ___
 
 ### Aprender - Ensinar - Divulgar
 
-<kbd>APRENDA COMIGO → [MARKDOWN](https://github.com/karinkau/karinkau/blob/main/markdown.md#user-content-fn-note-7944a2dd9f6f6d9f067f2020848d982c)</kbd>
+♦ APRENDA COMIGO → [MARKDOWN](https://github.com/karinkau/karinkau/blob/main/markdown.md#user-content-fn-note-7944a2dd9f6f6d9f067f2020848d982c)
 
 ♦ [Imagem em formato circular](https://karinkau.github.io/javascript/exercicios/aula12ex/imagem-em-formato-circular.pdf)
 
