@@ -6,36 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo de caixas</title>
     <style>
-        body{font-size: 20px;}
-        h1{ /* box-level */
+        h1{ /*box-level*/
             background-color: lightgray;
-            height: 300px;
-            width: 300px;
-            border: 10px solid darkslategray;
+            height: 300px; /*Box size*/
+            width: 300px; /*Box size*/
             padding: 10px;
-            margin: 20px auto 40px auto; /* centralizando as laterais */
-            outline: 5px dashed aqua;
+            margin: auto; /*Centralizar*/
+            border: 10px solid darkslategray;
+            outline: 5px dashed salmon;
         }
-        a{ /* inline-level */
+        a{ /*inline-level*/
             border: 10px solid red;
             padding: 10px;
         }
+        .nave { /*classe nave*/
+            margin: 20px; 
+            padding: 20px; 
+            background-color:aquamarine; 
+            font: oblique normal 1.3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            border-radius: 10%;
+        }
+        nav > a {border:0px;}
+        .infor {/* classe infor h1 */
+            font: oblique bold 2em 'Space Mono', monoespace; 
+            text-align: center;
+            color: black; 
+            background-color: aquamarine;
+        }
+        /*------------------------------------------------------------------
+            MARGIN:
+            margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;
+            ▬ Shorthand simplificado → margin: 20px 20px 40px 20px;
+            ▬ centralizando as laterais → margin: 20px auto 40px auto; 
+            ------------------------------------------------------------------
+            PADDING:
+            padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;
+            ▬ Shorthand simplificado → padding: 10px 10px 10px 10px; 
+            ▬ padding: 10px; → Se os 4 valores forem iguais = 
+            ▬ padding: 10PX 20PX; → top/botton = 10px e left/right = 20px
+            ------------------------------------------------------------------
+            BORDAS MAIS USADAS:
+            border-width: 10px; border-style: solid; border-color: darkslategray;
+            Shorthand simplificado → border: 10px solid darkslategray;
+            ------------------------------------------------------------------
+            OUTLINE
+            outline-width: 5px; outline-style: dashed; outline-color: salmon;
+            Shorthand simplificado → outline: 5px dashed salmon;
+            ------------------------------------------------------------------
+            */
     </style>
 </head>
 <body>
-    <h1>Exemplo de caixas box-level</h1>
-
-    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p><br>
-
-    <hr>
-    <!--navegação-->
-    <nav style="margin: 20px; padding: 20px; background-color:aquamarine; font-size: 25px;; font-weight: 700;">
+    <h1 class="infor">Exercício 21 ▬ aula 02 e aula 03
+        <br><hr><br>Exemplo de caixas box-level
+    </h1>
+    <br><hr><br>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+    <br><hr><br>
+    <nav class="nave"> <!--navegação-->
         <a href="./barralateral.html" target="_self" rel="next">Barra lateral</a> ▬
         <a href="./caixa02.html" target="_self" rel="next">Caixa 02</a> ▬
         <a href="./caixa03.html" target="_self" rel="next">Caixa 03</a> ▬
         <a href="./grid.html" target="_self" rel="next">Grid</a> ▬
         <a href="./sitekau.html" target="_self" rel="next">Site</a> 
     </nav>
-    <hr>
 </body>
 </html>
