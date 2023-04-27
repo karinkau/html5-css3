@@ -103,8 +103,8 @@ nav{
 nav > a {
     text-decoration: none;
     color: blue;
-    font-weight: bold;
-    margin-right: 30px;
+    /*font-weight: bold;*/
+    margin-right: 10px;
 }
 nav > a:hover {
     text-decoration: underline;
@@ -167,3 +167,12 @@ footer {
   h1 {
       font-family: var(--fonte1);
   }
+
+  .nave { /*classe nave*/
+    margin: 20px; 
+    padding: 20px; 
+    background-color:aquamarine; 
+    font: oblique normal 1.3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    border-radius: 10%;
+    margin-top: 3em;
+}

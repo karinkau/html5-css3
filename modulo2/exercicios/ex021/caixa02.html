@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Grouping Tags</title>
-
     <style>
         body {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             background-color: dimgray;
             margin: 0px;
         }
@@ -21,7 +19,7 @@
         nav {
             background-color: rgb(102, 102, 102);
             padding: 3px;
-            box-shadow: 2px, 2px, 4px, 1px, rgba(0, 0, 0, 0.315)
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
         }
         nav > a {
             text-decoration: none;
@@ -36,8 +34,8 @@
             background-color: white;
             padding: 10px;
             margin: 10px;
-            border-radius: 10px 0px;
-            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+            border-radius: 15px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.315);
         }
         article {
             background-color: lightgray;
@@ -50,35 +48,35 @@
             background-color: black;
             color: white;
             text-align: center;
-            padding: 1px;
+            padding: 4px;
             margin: 0px;
         }
         footer > p {
-            margin: 4px;
+            margin: 0px;
         }
-
-        /* Criando uma bola com Css */
+        /* Bola com Css */
         div#bola{
             height: 100px;
             width: 100px;
             margin: 10px;
             background-color: rgb(7, 7, 7);
             border-radius: 50%;
-        }
+        }   
     </style>
 </head>
 <body>
     <header>
-        <h1>Meu site</h1>
+        <h1>Meu site</h1>   
+        <!--Bola com CSS--><div id="bola"></div> 
         <nav>
-            <a href="#" target="_blank" >link</a>
-            <a href="#" target="_blank" >link</a>
-            <a href="#" target="_blank" >link</a>
-            <a href="#" target="_blank" >link</a>
-            <a href="#" target="_blank" >link</a>
+            <a href="./caixa01.html" target="_self" rel="next">Caixa 01</a>
+            <a href="#" target="_self" rel="next">Caixa 02</a>
+            <a href="./caixa03.html" target="_self" rel="next">Caixa 03</a>
+            <a href="./barralateral.html" target="_self" rel="next">Barra lateral</a>
+            <a href="./grid.html" target="_self" rel="next">Grid</a>
+            <a href="./sitekau.html" target="_self" rel="next">Site</a> 
         </nav>
     </header>
-   
     <main>
         <section id="assuntos">
             <article>
@@ -89,31 +87,18 @@
                 </aside>
             </article>
         </section>
-        <div id="bola"></div>
         <section id="notícias">
             <article>
                 <h2>Notícias sobre o Brasil</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sit porro quo nobis tempora. Atque aperiam alias ab, veritatis ea laboriosam fuga fugit dolorum, eveniet quas ducimus, natus explicabo magni?</p>
                 <aside>
-                    <p>Artigo escrito por José da Silva</p>
+                    <p>Artigo escrito por <cite>José da Silva</cite></p>
                 </aside>
             </article>
         </section>
     </main>
     <footer>
-        <p>Desenvolvido Karin Kau</p>
+        <p>Desenvolvido por Karin Kau</p>
     </footer>
-   
-
-    <hr>
-    <!--navegação-->
-    <nav style="margin: 20px; padding: 20px; background-color:blue; font-size: 25px;; font-weight: 700;">
-        <a href="./barralateral.html" target="_self" rel="next">Barra lateral</a> ▬
-        <a href="./caixa01.html" target="_self" rel="next">Caixa 01</a> ▬
-        <a href="./caixa03.html" target="_self" rel="next">Caixa 03</a> ▬
-        <a href="./grid.html" target="_self" rel="next">Grid</a> ▬
-        <a href="./sitekau.html" target="_self" rel="next">Site</a> 
-    </nav>
-    <hr>
 </body>
 </html>

@@ -5,29 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bordas personalizadas</title>
-
     <style>
+        body {margin-top: 50px;}
         h1 {
             border: 20px solid transparent;
             padding: 10px;
+            /*
+            border-image-source: url('borda.png');
+            border-image-slice: 27;
+            ▬ border-image-repeat: repeat; 
+            ▬ border-image-repeat: stretch;
+            */ /* shorthand */
             border-image: url('borda.png') 27 repeat;
         }
+        .nave { /*classe nave*/
+            margin: 20px; 
+            padding: 20px; 
+            background-color:aquamarine; 
+            font: oblique normal 1.3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            border-radius: 10%;
+            margin-top: 3em;
+        }
     </style>
-
 </head>
 <body>
-    <h1>Teste de borda</h1>
-
-    <hr>
-    <!--navegação-->
-    <nav style="margin: 20px; padding: 20px; background-color:aquamarine; font-size: 25px;; font-weight: 700;">
-        <a href="./barralateral.html" target="_self" rel="next">Barra lateral</a> ▬
-        <a href="./caixa01.html" target="_self" rel="next">Caixa 01</a> ▬
-        <a href="./caixa02.html" target="_self" rel="next">Caixa 02</a> ▬
-        <a href="./grid.html" target="_self" rel="next">Grid</a> ▬
+    <h1>
+        Exercício 21 ▬ aula 07 <br>
+        Teste de borda
+    </h1>
+    <nav class="nave"> <!--navegação-->
+        <a href="./caixa01.html" target="_self" rel="next">Caixa 01</a> 
+        <a href="./caixa02.html" target="_self" rel="next">Caixa 02</a> 
+        <a href="#" target="_self" rel="next">Caixa 03</a> 
+        <a href="./barralateral.html" target="_self" rel="next">Barra lateral</a> 
+        <a href="./grid.html" target="_self" rel="next">Grid</a>
         <a href="./sitekau.html" target="_self" rel="next">Site</a> 
     </nav>
-    <hr>
 </body>
 </html>
 

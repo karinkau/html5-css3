@@ -24,37 +24,37 @@
             height: 200px;
             background-color: aqua;
         }
+        .nave { /*classe nave*/
+            margin: 20px; 
+            padding: 20px; 
+            background-color:aquamarine; 
+            font: oblique normal 1.3em Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            border-radius: 10%;
+            margin-top: 3em;
+        }
     </style>
 </head>
 <body>
-    <!--Cabeçalho-->
-    <header>
+    <header><!--Cabeçalho-->
         <h1>Cabeçalho</h1>
     </header>
-
-    <!--Navegação-->
-    <nav>
+    <nav><!--Navegação-->
         <h2>Navegação</h2>
     </nav>
-    <!--Conteúdo-->
-    <main>
+    <main><!--Conteúdo-->
         <h1>Conteúdo principal/h1>
     </main>
-    <!--Sidebar-->
     <aside>
         <h2>Sidebar</h2>
-    </aside>
-
-    <!--Rodapé-->
-    <footer>
+    </aside> <!--Sidebar-->
+    <footer><!--Rodapé-->
         <p>Testando layout com Grids areas</p>
-
-        <!--navegação-->
-        <nav style="margin: 20px; padding: 20px; background-color:aquamarine; font-size: 25px;; font-weight: 700;">
-            <a href="./barralateral.html" target="_self" rel="next">Barra lateral</a> ▬
-            <a href="./caixa01.html" target="_self" rel="next">Caixa 01</a> ▬
-            <a href="./caixa02.html" target="_self" rel="next">Caixa 02</a> ▬
-            <a href="./caixa03.html" target="_self" rel="next">Caixa 03</a> ▬
+        <nav class="nave"><!--navegação-->
+            <a href="./caixa01.html" target="_self" rel="next">Caixa 01</a>
+            <a href="./caixa02.html" target="_self" rel="next">Caixa 02</a>
+            <a href="./caixa03.html" target="_self" rel="next">Caixa 03</a>
+            <a href="./barralateral.html" target="_self" rel="next">Barra lateral</a>
+            <a href="#" target="_self" rel="next">Grid</a>
             <a href="./sitekau.html" target="_self" rel="next">Site</a> 
         </nav>
     </footer>
