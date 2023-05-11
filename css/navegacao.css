@@ -1,5 +1,4 @@
-/* ==== BOTÕES DE NAVEGAÇÃO === 
-  ==============================*/
+/* ==== BOTÕES DE NAVEGAÇÃO === */
 @charset  "UTF-8";
 
 /* navegação superior */
@@ -11,12 +10,13 @@
   .topnav a {
     float: right;          
     display: block;    
+    padding: 3px 10px;   
+    margin: 10px;
     color: gold;   
+    font-size: 1.1em;
     text-align: center;   
-    padding: 5px 8px;   
     text-decoration: none;   
     background-color: #000000;
-    margin: 10px;
     border-style: outset;
     border-color: gold;
     border-radius: 20px;   
@@ -30,9 +30,6 @@
   color: burlywood;
   border-color:goldenrod;    
   }
-
-
-
 /* navegação lateral */
 .rightnav {
     overflow: hidden;         
@@ -59,8 +56,6 @@
   .rightnav a:active {
   color: blueviolet;
   }
-
-
 
 /* navegação paginal */
   .leftnav {
