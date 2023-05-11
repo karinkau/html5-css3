@@ -1,0 +1,603 @@
+/* LAYOUT RESPONSIVO DE DUAS COLUNAS */
+@charset "UTF-8";
+
+/* Fontes externas */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root { /* Variáveis */  
+  --bg-degrade: linear-gradient(100deg, var(--cor-laranja) ,var(--cor-laranjinha)); /* degradê */
+  --sombra: 2px 2px 4px 1px rgba(0, 0, 0, 0.315); /* sombra dos objetos */
+  --sombra-txt: 2px 2px 4px 1px rgba(0, 0, 0, 0.315); /* sombra dos textos */
+
+  --font-geral: 'Roboto', sans-serif;            /* regular 400 / Bold 700 / Black 900 Italic */
+  --font-codigo: 'Courier Prime', monoespaçada; /* regular 400 / Bold 700 */
+  --font-titulo: 'Secular One', sans-serif;    /* regular 400 */
+  --font-destaque: 'Lemon', cursive;          /* regular 400 */
+
+  --cor-preto: #000;          /* preto */
+  --cor-branco: #FFF;         /* braco */
+  --cor-cinza: #EEE;          /* cinza transparente */    
+  --cor-azulinho: #B0E0E6;    /* powderblue */
+  --cor-laranjinha: #FFEBCD;  /* PapayaWhip */
+  --cor-ciano: #00FFFF;       /* cyan */
+  --cor-azul: #0000FF;        /* blue */
+  --cor-azulao: #191970;      /* midnightblue */
+  --cor-laranja: #F16524;     /* símbolo html */
+  --cor-laranjao: #E54C21;    /* símbolo html */
+  
+  --size2: 0.125em;  /* medidas em */  
+  --size4: 0.25em;   /* 4px / 16 = 0,25em */ 
+  --size6: 0.375em;  /* 0,25em x 16 = 4px */
+  --size8: 0.5em;
+  --size10: 0.625em;
+  --size12: 0.75em;
+  --size14: 0.875em;
+  --size16: 1em;
+  --size18: 1.125em;
+  --size20: 1.25em;
+  --size22: 1.375em;
+  --size24: 1.5em;
+  --size26: 1.625em;
+  --size28: 1.75em;
+  --size30: 1.875em;
+  --size32: 2em;
+  --size34: 2.125em;
+  --size36: 2.25em;
+  --size38: 2.375em;
+  --size40: 2.5em;
+  --size42: 2.625em;
+  --size44: 2.75em;
+  --size46: 2.875em;
+  --size48: 3em;
+  --size50: 3.125em;
+  --size52: 3.25em;
+  --size54: 3.375em;
+  --size56: 3.5em;
+  --size58: 3.625em;
+  --size60: 3.75em;
+  --size62: 3.875em;
+  --size64: 4em;
+  --size66: 4.125em;
+  --size68: 4.25em;
+  --size70: 4.375em;
+  
+}
+
+* { /* configuração geral */
+  box-sizing: border-box; /* Dimensão da caixa */
+  margin: 0px; 
+  padding: 0px; 
+} 
+
+body { /* corpo do site */
+  background: var(--cor-cinza);
+  color: var(--cor-preto);
+  font: normal 400 100% var(--font-geral); /* 100% = 1em */
+}
+
+/*
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ HEADERS ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+*/
+
+header { /* cabeçalho do site */
+  background-image: var(--bg-degrade);
+  background-attachment: fixed;
+  padding: 50px;
+  text-align: center;  
+}
+header > a > h1 {
+  font: 900 var(--size60) var(--font-destaque);   
+  color: var(--cor-azulao);
+  text-shadow: var(--sombra-txt);
+  text-align: center; 
+  text-decoration: none;
+}  
+header > a:hover {
+  text-decoration: none;
+}
+
+header > p {
+  font: oblique 700 var(--size20) var(--font-geral);  
+  color: var(--cor-preto); 
+  text-align: center; 
+  text-indent: 30px;
+  line-height: 1.5; 
+}
+
+#titulo {margin-top: 0px;} /* cabeçalho das páginas */
+
+td > img {float: left;} /* img cabeçalho pagina */
+
+td > h1 { /* título cabeçalho pagina */       
+  font: oblique 900 var(--size42) var(--font-destaque);  
+  color: var(--cor-laranja);
+  float: left;
+} 
+
+/*
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ NAVEGAÇÃO ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+*/
+
+nav { /* navegação do site */
+  position: sticky; top: 0; /* menu fixo */
+  box-shadow: var(--sombra);
+  background-color: var(--cor-azulao);
+  overflow: hidden;
+}
+nav > a {
+  display: block;
+  float: left;
+  margin: 5px;
+  padding: 3px 7px;
+  font: normal 500 var(--size20) var(--font-titulo);
+  color: var(--cor-ciano);
+  text-align: center;
+  text-decoration: none;
+}
+nav > a:hover {
+  border: 2px outset var(--cor-azulinho);
+  border-radius: 5px;
+  background-color: var(--cor-azul);
+  color: var(--cor-ciano);
+  text-decoration: none;
+}
+nav > a:active {
+  background-color: var(--cor-ciano);
+  color: var(--cor-azulao);
+  border-color: var(--cor-azulinho);       
+}
+
+.nav-esq {float: right;} /* link github */
+
+.menu-sidebar { /* navegação lateral */
+  background-color: var(--cor-branco);
+}
+.menu-sidebar > a { 
+  display: block;   
+  float: center;  
+  border: 3px outset var(--cor-branco);
+  border-radius: 10px;
+  margin: 0px;
+  padding: 3px 7px;    
+  background-color: var(--cor-azulinho);
+  font: normal 400 var(--size20) var(--font-titulo);
+  color: var(--cor-azul);
+  text-align: center;
+  text-decoration: none;
+}
+.menu-sidebar > a:hover {
+  background-color: var(--cor-ciano);   
+  color: var(--cor-azulao);    
+  text-decoration: none; 
+}
+.esq-10p > a {text-align: left; text-indent: 10px;} /* menu desafios */
+
+.menu-page { /* navegação da página */
+  overflow: hidden; 
+  background-color: var(--cor-branco);
+}
+.menu-page a, li> a  {   
+  display: inline;   
+  /*float: left;*/  
+  margin: 3px;
+  padding: 1px 3px;   
+  background-color: var(--cor-cinza);
+  font: italic 400 var(--size18) var(--font-geral);
+  color: var(--cor-azul);
+  text-align: center;
+  text-decoration: none;
+  line-height: 2;
+} 
+.menu-page a:hover, li> a:hover {
+  background-color: var(--cor-laranjinha);   
+  color: var(--cor-azulao);    
+  text-decoration: none; 
+}
+.menu-page a:active, li > a:active {
+  background-color: var(--cor-azulinho);
+}
+
+/*
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ LINKS ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+*/
+a { /* links */
+  font: italic 400 var(--size18) var(--font-geral); 
+  color: var(--cor-azul);
+  text-decoration: none;
+  line-height: 1.5;
+}
+a:hover {
+  text-decoration: underline double var(--cor-azul);
+}
+a:active {
+  background-color: var(--cor-azulinho);
+}
+
+/*
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ MAIN PAGINA SIDEBAR ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+*/
+
+main::after { /* MAIN - colunas desiguais que flutuam uma ao lado da outra. */
+  content: "";
+  display: table;
+  clear: both;
+}
+.rightcolumn { /* barra lateral */
+  background-color: var(--cor-cinza);
+  float: right;
+  width: 25%;
+  margin: 0px;
+}
+.leftcolumn { /* página do site */
+  background-color: var(--cor-cinza);
+  float: left;
+  width: 75%;
+  margin: 0px;
+  padding-left: 10px; 
+  padding-right: 10px;
+}
+.lateral-zero { /* index */
+  padding-left: 0px; 
+  padding-right: 0px;
+}
+
+/*
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ RODAPÉ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+*/
+
+footer {
+  margin: 0px;
+  margin-top: 3px;
+  padding: 10px;
+  background: var(--cor-azulao);
+}
+footer > h3 {
+  font: oblique 400 var(--size16) var(--font-geral);
+  color: var(--cor-cinza);
+  text-align: center;
+}
+footer > p {
+  font: oblique 400 var(--size22) var(--font-geral); 
+  color: var(--cor-laranjao);
+  text-align: center;
+}
+
+/*
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CARDS ESPAÇO NA PÁGINA ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+*/
+
+.card { /* espaço das seções */
+  box-shadow: var(--sombra);
+  background-color: var(--cor-branco);
+  margin: 10px 2px;
+  padding: 20px;
+}
+
+.card-exercicio { /* espaço dos exercícios */
+  box-shadow: var(--sombra);
+  background-color: var(--cor-laranjinha); 
+  margin: 10px 2px;
+  padding: 20px;   
+}
+
+.card-borda{ /* borda para seções */
+  background-color: var(--cor-azulinho);
+  border: 3px outset var(--cor-ciano);
+  padding: 3px;
+  margin: 0px;
+}
+
+.card-laranja { /* card laranja */
+  background-color: var(--cor-laranjinha);
+  outline: 2px groove var(--cor-laranja);
+  border-radius: 20px;
+  margin: 0px;
+  padding: 25px;
+  width: 100%;
+  height: 100px;
+}
+
+/*
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ IMAGENS ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+*/
+
+img.central { /* centralizar imagem */
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+img.primeira-img { /* imagem de abertura */
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 950px;
+  height: 603px;
+}
+
+/*
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ LINKS ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+*/
+a { /* links */
+  font: italic bold var(--size18) var(--font-geral); 
+  color: var(--cor-azul);
+  text-decoration: none;
+  line-height: 2;
+}
+a:hover {
+  text-decoration: underline double var(--cor-azul);
+}
+a:active {
+  background-color: var(--cor-azulinho);
+}
+
+/*
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ PADRÕES DO SITE ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+*/
+
+h1 { /* Títulos h1 ao h6 */
+  font: oblique 400 var(--size32) var(--font-titulo);
+  color: var(--cor-laranja);
+  text-shadow: var(--sombra-txt);
+
+}
+h2 {
+  font: oblique 400 var(--size28) var(--font-titulo);
+  color: var(--cor-laranjao);
+  line-height: var(--size24);
+  text-shadow: var(--sombra-txt);
+}
+h3 {
+  font: oblique 400 var(--size24) var(--font-titulo);
+  color: var(--cor-azulao);
+  line-height: var(--size24);
+}
+h4 {
+  font: oblique 400 var(--size22) var(--font-titulo);
+  color: var(--cor-azulao);
+  line-height: var(--size24);
+}
+h5 {
+  font: oblique 400 var(--size20) var(--font-titulo);
+  color: var(--cor-azulao);
+  line-height: var(--size24);
+}
+h6 {
+  font: oblique 400 var(--size18) var(--font-titulo);
+  color: var(--cor-azulao);
+  line-height: var(--size24);
+}
+
+p { /* Parágrafo */
+  font: normal 400 var(--size18) var(--font-geral); 
+  color: var(--cor-preto);
+  text-align: justify;
+  text-indent: var(--size30);
+  line-height: var(--size24);
+}
+
+hr { /* linhas horizontais cinza */
+  border: 1px solid var(--cor-cinza); 
+  margin: 10px 0;
+} 
+hr.linha { /* linhas horizontais 3D */
+  border: 3px inset var(--cor-laranjinha); 
+  margin: 10px 0;
+}
+
+/*
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ FORMATADOR TEXTUAL ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+*/
+
+strong { /* texto em negrito */
+  background-color: var(--cor-cinza);
+  font: oblique 900 var(--size18) var(--font-geral); 
+  color: var(--cor-preto);  
+}
+
+em { /* ênfase textual */
+  font: normal 400 var(--size18) var(--font-geral); 
+  text-decoration: underline dashed var(--cor-azulao);
+  color: var(--cor-azulao);
+}
+
+mark { /* texto marcado */
+  background-color: var(--cor-ciano);  
+  font: oblique 400 var(--size18) var(--font-destaque); 
+  color: var(--cor-preto);
+  padding: 1px;
+}
+
+small { /* texto pequeno */
+  font: normal 400 var(--size14) var(--font-geral); 
+
+}
+
+del { /* texto deletado */
+  font: normal 400 var(--size18) var(--font-geral); 
+}
+
+ins { /* texto inserido */
+  font: normal 400 var(--size18) var(--font-geral); 
+}
+
+sub { /* texto abaixo */
+  font: normal 400 var(--size18) var(--font-geral); 
+}
+
+sup { /* texto acima */
+  font: normal 400 var(--size18) var(--font-geral); 
+}
+
+bdo { /* texto invertido */
+  font: normal 400 var(--size18) var(--font-geral); 
+  color: var(--cor-azulao);
+}
+
+abbr { /* texto abreviado */
+  font: normal 400 var(--size18) var(--font-geral); 
+  text-decoration:underline dashed;
+  color: var(--cor-laranja);
+}
+abbr:hover {
+  background-color: var(--cor-laranjinha);
+  text-decoration: none;
+  cursor: help;
+}
+
+q { /* citação inline */
+  font: normal 500 var(--size18) var(--font-geral); 
+  color: var(--cor-azulao);
+}
+
+blockquote { /* citação de bloco */
+  display:inline-block;
+  background-color: var(--cor-laranjinha);
+  outline: 5px outset var(--cor-laranja);
+  border-radius: 30px;
+  padding: 30px;
+  margin: 20px 50px;
+  font: normal 600 var(--size20) var(--font-geral); 
+  color: var(--cor-preto);
+  text-align: center;
+}
+
+pre { /* Textos pré-formatados */
+  background-color: var(--cor-preto);
+  font: normal 500 var(--size20) var(--font-codigo); 
+  color: var(--cor-branco);
+  text-align: left;
+  margin-left: -180px;
+}
+
+code { /* Código inline */
+  font: oblique 700 18px var(--font-codigo);  
+  background-color: var(--cor-azulinho);
+  color: var(--cor-preto);
+  padding: 4px;
+}
+
+ul { /* lista não ordenada */
+  font: normal 400 var(--size18) var(--font-geral);
+  color: var(--cor-preto);
+  list-style-type: square;
+  line-height: var(--size24);
+  margin-left: 30px;
+  padding: 5px 20px;
+}
+
+ol { /* lista ordenada */
+  font: normal 400 var(--size18) var(--font-geral);
+  color: var(--cor-preto);
+  list-style-type:decimal-leading-zero;
+  line-height: var(--size24);
+  margin-left: 30px;
+  padding: 5px 30px;
+}
+
+table { /*tabela*/
+  width: 100%;
+}
+
+
+details > summary { /* ▼ todas as aulas do youtube */ 
+  padding: 20px;
+  width: 500px;
+  cursor: pointer;
+  box-shadow: var(--sombra);
+  background-color: var(--cor-laranjao);
+  font: normal 400 var(--size22) var(--font-destaque);
+  color: var(--cor-laranjinha);
+}
+details > p {
+  background-color: var(--cor-laranjinha);
+  font: oblique bold var(--size18) var(--font-geral);
+  color: var(--cor-preto);
+}
+
+/*
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ CLASSES DIVERSAS ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+*/
+
+.txt-central { /* centralizar textos */
+  text-align: center;
+}
+.txt-left {text-align: left;}
+
+.em-2colunas > ul { /* listas em 3 colunas */
+  list-style-type: '\2714\00A0\00A0';
+  list-style-position: inside;
+  columns: 2;
+}
+.em-2colunas > ol { /* links em 2 colunas */
+  list-style-type:decimal-leading-zero;
+  list-style-position: inside;
+  columns: 2;
+  font: normal bold var(--size18) var(--font-geral);
+  color: var(--cor-preto);
+  line-height: var(--size24);
+  margin-left: 0px;
+  padding: 5px 20px;
+}
+.largura50 {width: 50%;}
+
+
+/*
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ PSEUDOS ELEMENTOS ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+*/
+
+h2::before {
+  content: '▓ ';
+}
+h2::after {
+  content:' »' ;
+}
+
+
+/*  = = = = = = RESPONSIVIDADE = = = = = = 
+  Layout responsivo - quando a tela tem menos de 800px de largura, 
+  empilhe as duas colunas uma em cima da outra em vez de uma ao lado da outra.
+*/
+@media screen and (max-width: 800px) { 
+  .leftcolumn, .rightcolumn {width: 100%; padding: 0;}
+  nav {position: relative;}
+  .em-2colunas > ol {display: inline;}
+  .em-2colunas > ul {columns: 1;}
+  table {width: 80%;}
+  tr > td {display:inline-table; columns: 1;}
+  header > a > h1 {font-size: var(--size40);}
+  header > p {font-size: var(--size14);}
+  td > h1 {font-size: var(--size20);}
+  details > summary {width: 400px; font-size: var(--size18);}
+  pre {font-size: var(--size10); margin-left: -100px;}
+  img.primeira-img {width: 430px; height: 400px;}
+  
+}
+
+/*Layout responsivo - quando a tela tem menos de 400px de largura, 
+  empilhe os links de navegação uns sobre os outros. 
+*/
+@media screen and (max-width: 400px) {      
+  details > summary {width: 300px; font-size: var(--size16);}  
+}
+
+/*  box-model = 4 lados → top - right - bottom - left
+  sombra da caixa =     box-shadow
+  margim =              margin
+  contorno =            outline
+  borda =               border
+  espaçamento =         padding
+  conteúdo =            content
+  largura =             widht
+  altura =              height
+
+  1em = 12pt = 16px = 100%.
+*/
+
+
+
+ 
