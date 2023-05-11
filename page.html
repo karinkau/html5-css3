@@ -1,93 +1,352 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html><!--Atualizada em: 11/05/2023-->
+<html lang="pt-BR"><!-- MODELO PAGE -->
     <head>
-        <!--PAGE MODEL-->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--informação do site-->
-        <meta name="description" content="PÁGINA MODELO">
-        <meta name="keywords" content="site, html 5, css 3, css, html">
-        <meta name="author" content="Karine s m Rodrigues">
-        <meta name="robots" content="PAGE, follow">
-    
-        <title>PAGE MODELO</title>
-
-        <!-- folha de estilo -->
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="./css/navegacao.css">
-        <link rel="stylesheet" href="./css/links.css">
-
-        <!--favicon-->
+        <meta name="description" content="Site relativo ao curso de HTML5 e CSS3 relalizado no Curso em Vídeo do prof. Gustavo Guanabara.">
+        <meta name="keywords" content="html, css, html5, css3, Curso em Vídeo, Gustavo Guanabara">
+        <meta name="author" content="Karine s m Rodrigues - Karin Kau">
+        <meta name="robots" content="index, follow">
+        
+        <!--links incorporados-->
+        <link rel="stylesheet" href="style-X.css">
         <link rel="shortcut icon" href="favicon-k.ico" type="image/x-icon">
+
+        <title>HTML 5 & CSS 3 ☺</title>
     </head>
     <body>
-        <!--cabeçalho principal-->
-        <header class="header"> 
-            <h1>Curso HTML 5 e CSS 3</h1>
+        <header><!--cabeçalho-->
+            <a href="index.html" ><h1>HTML 5 e CSS 3</h1></a>
+            <p>Site relativo ao curso de HTML5 e CSS3 <br> relalizado no Curso em Vídeo do prof. Gustavo Guanabara.</p>
         </header>
+        
+        <nav><!--navegação principal
+            <a href="index.html" >Início</a>
+            <a href="modulos.html" rel="next">Módulos do curso</a>
+            <a href="modulo1.html" rel="next">Módulo 1</a>
+            <a href="modulo2.html" rel="next">Módulo 2</a>
+            <a href="modulo3.html" rel="next">Módulo 3</a>
+            <a href="modulo4.html" rel="next">Módulo 4</a>
+            <a href="modulo5.html" rel="next">Módulo 5</a>
+            <a href="https://github.com/karinkau/html5-css3" target="_blank" rel="external" class="nav-esq">Repositório público Github</a>   -->
 
-        <!--navegação superior-->
-        <nav class="topnav">
-            <a href="modulo5.html" target="_self" rel="next">Módulo 5</a>
-            <a href="modulo4.html" target="_self" rel="next">Módulo 4</a>
-            <a href="modulo3.html" target="_self" rel="next">Módulo 3</a>
-            <a href="modulo2.html" target="_self" rel="next">Módulo 2</a>
-            <a href="modulo1.html" target="_self" rel="next">Módulo 1</a>
-                
-            <a href="index.html" style="float:left">Apresentação inicial</a>
-            <a href="modulos.html" style="float:left">Apresentação dos Módulos</a>
+            <!--RETIRAR LINKS DE TESTE #############################-->
+            <a href="page.html" >page</a>
+            <a href="modulos-X.html" >modulo -X</a>
+            <a href="modulo1-X.html" >modulo 1-X</a>
+            <a href="modulo2-X.html" >modulo 2-X</a>
+            <a href="modulo3-X.html" >modulo 3-X</a>
+            <a href="modulo4-X.html" >modulo 4-X</a>
+            <a href="modulo5-X.html" >modulo 5-X</a>
         </nav>
 
-        <!--layout 2 colunas-->
-        <main class="row">
+        <main><!--corpo do site-->
 
-            <!--COLUNA PRINCIPAL-->
-            <aside class="leftcolumn">
-    
-                <!--Título da página-->
-                <section class="card">
-                    <hr class="line">
+            <!--▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ PÁGINA SITE ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬-->
+            <section class="leftcolumn">
+
+                <div id="titulo" class="card"><!--cabaçalho da página-->
+                    <hr class="linha">
                     <table>
                         <tr>
-                            <td><h1>PAGE MODELO</h1></td>
-                            <td><img src="imagem/html-css/html5-css3-100.jpg"  alt="Símbolo do html 5 e css 3 que são as tecnologias estudadas e praticadas nesse site."  style="float: right;"></td>
+                            <td><img src="imagens/html5-css3-100.jpg"  alt="Símbolo do html 5 e css 3 que são as tecnologias estudadas e praticadas nesse site."></td>
+                            <td><h1 class="txt-central">PAGE MODELO</h1></td>
                         </tr>
                     </table>
-                    <hr class="line">
-                    <br>
-                    <!--
-                        CORPO DO SITE
-                    -->
-                    <hr class="line">
-                </section>
-            </aside>   
+                    <hr class="linha">
+                </div><!--/cabeçalho-->
 
-            <!--COLUNA LATERAL-->
-            <aside class="rightcolumn">
-                <!--
-                    COLOQUE DADOS AQUI
-                -->
+                <div class="card"><!--introdução-->
+                    <h2>Introdução do módulo X</h2>
+                    <hr>
+                </div><!--/introdução-->
 
-                <section class="card" style="background-color: aquamarine;">
-                    <h2>► 2023</h2>
-                </section>
+                <div class="card"><!--ebooks-->
+                    <h2>E-books das aulas</h2>
+                    <hr class="linha">
+                </div><!--/ebooks-->
+
+                <div class="card"><!--vídeo-aulas-->
+                    <h2>Vídeo-aulas Youtube</h2>
+                    <hr class="linha">
+                </div><!--/video-aula-->
+
+                <div class="card"><!--exercícios-->
+                    <h2>Exercícios das aulas</h2>
+                    <hr class="linha">
+                </div><!--/exercícios-->
+
+                <div class="card"><!--desafios-->
+                    <h2>Desafios propostos</h2>
+                    <hr class="linha">
+                </div><!--/desafios-->
+
+                <div class="card"><!--anotações-->
+                    <h2>Anotações em pdf</h2>
+                    <hr class="linha">
+                </div><!--/anotações-->
+
+            </section><!--/página do site--> 
+
+            <!--▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ SIDEBAR ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬-->
+            <section class="rightcolumn">
+
+                <aside class="card-borda"><!--tecnologias aprendidas-->
+                    <img class="central" src="./imagens/html-css-vscode.jpg" alt="símbolo das CSS 3" title="Editor de código usado: Visual Studio Code.">
+
+                    <img class="central" src="./imagens/git-github.png" alt="imagem do github de Gustavo Guanabara" title="Tecnologias aprendidas durante o curso de HTML5 e CSS3.">
+                </aside><!--/tecnologias aprendidas-->
+                
+                <aside class="card"><!--curso em video-->
+                    <div class="card-laranja">
+                        <table>
+                            <tr>
+                                <td>
+                                    <a href="https://www.cursoemvideo.com/cursos/" target="_blank" rel="external">
+                                        <img class="" src="./imagens/cursoemvideo.jpg" alt="" title="">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://www.cursoemvideo.com/cursos/" target="_blank" rel="external"><h4>Curso em Vídeo</h4></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </aside><!--/curso em video-->
+
+                <aside class="card-borda"><!--playlist youtube-->
+                    <div class="card">
+                        <h3>Playlist: aulas-Youtube</h3>
+                        <hr class="linha">
+                        <div class="menu-sidebar">
+                            <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank" rel="external">Playlist módulo 1</a>
+
+                            <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" target="_blank" rel="external">Playlist Módulo 2</a>
+
+                            <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ" target="_blank" rel="external">Playlist Módulo 3</a>
+
+                            <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT" target="_blank" rel="external">Playlist Módulo 4</a>
+                            
+                            <a href="" target="_blank" rel="external">Playlist Módulo 5</a>
+                        </div>
+                    </div>
+                </aside><!--/playlist youtube-->
+
+                <aside class="card"><!--dica de estudo-->
+                    <div class="card-exercicio">
+                        <h3>Aprenda:</h3>
+                        <h2>HTML 5 e CSS 3</h2>
+                    </div>
+                </aside><!--/dica de estudo-->
+
+                <aside class="card-borda"><!--menu desafios-->
+                    <div class="card">
+                        <h3>Desafios realizados</h3>
+                        <hr class="linha">
+                        <div class="esq-10p menu-sidebar">
+                            <a href="./modulo1/desafio001.html" target="_self" rel="next">1 - mensagens</a>
     
-                <!--imagem -->
-                <section class="card">
-                    <img class="displayed" src="./imagem/cursoemvideo.jpg" alt="símbolo das CSS 3">
-                </section>
-            </aside>
-        </main>
-        <br>
-        <!--footer simples-->  
-        <footer class="footer">
-            <h5>
-                | ► Desenvolvido por <a href="https://github.com/karinkau" target="_blank" rel="external">Karin Kau</a>◄ |
+                            <a href="./modulo1/desafio002.html" target="_self" rel="next">2 - imagens</a>
+        
+                            <a href="./modulo1/desafio003.html" target="_self" rel="next">3 - mapa mundi</a>
+        
+                            <a href="./modulo1/desafio004.html" target="_self" rel="next">4 - usando emojis</a>
+        
+                            <a href="./modulo1/desafio005.html" target="_self" rel="next">5 - perfil social</a>
+        
+                            <a href="./modulo1/desafio006.html" target="_self" rel="next">6 - tags em HTML</a>
+        
+                            <a href="./modulo1/desafio007.html" target="_self" rel="next">7 - imagem flexível</a>
+        
+                            <a href="./modulo1/desafio008.html" target="_self" rel="next">8 - criando um menu</a>
+        
+                            <a href="./modulo1/desafio009.html" target="_self" rel="next">9 - página de vídeos</a>
 
-                <a href="https://www.facebook.com/karinkau" target="_blank" rel="external"><img src="./imagem/facebook-icon-28px.png" alt="acesse meu facebook oficial" title="página oficial" style="width: 25px; height: 20px;"></a>
-            </h5>
+                            <a href="https://karinkau.github.io/site-android/" target="_blank" rel="external">10 - site Android</a>
+                    </div>
+                </aside><!--/menu desafios-->
+
+                <aside class="card-exercicio"><!--aprendendo em 2023-->
+                    <h3>Aprendendo em 2023</h3>
+                    <hr class="linha">
+                    <div class="card">
+                        <p>Eu sou Karine s m Rodrigues, desenvolvedora desse site que criei para a pratica 
+                            da linguagem HTML e CSS.</p>
+                        <img class="largura50 central" src="./imagens/karin-kau-150px.png" alt="foto 
+                            pessoal de Karine Rodrigues,desenvolvedora desse site" title="Karin Kau">
+                        <hr>
+                        <p>Dedico minhas horas vagas ao aprendizado das linguagens: </p>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>Wordpress</li>
+                        </ul>
+                        <p>Esperanto, outra forma de comunicar-se com o mundo.
+                            Aprenda Esperanto esse ano.</p>
+                        <hr>
+                        <h4 class="menu-sidebar">
+                            <a href="https://aprendaesperanto.wordpress.com/" target="_blank" rel="external">Aprenda Esperanto</a>
+                        </h4>
+                        <hr>
+                        <p>Site criado ao longo do Curso de <em>Wordpress.org</em> do Curso em Vídeo e cursos relativos na plataforma <a href="https://wordpress.com/learn/courses/" target="_blank" rel="external">Wordpress.com</a>.</p>
+                        <hr>
+                        <address>Karin Kau <br> Montes Claros - Mg - Brasil</address>
+                        <hr>
+                    </div>
+                </aside><!--/aprendendo em 2023-->
+
+                <aside class="card-borda"><!--app usados-->
+                    <div class="card">
+                        <h3>Aplicações utilizadas</h3>
+                    <hr class="linha">
+                    
+                    <strong>Controle de versão:</strong>
+                    <a href="https://git-scm.com/" target="_blank" rel="external">Git</a><br>
+
+                    <strong>Compartilhar códigos:</strong>
+                    <a href="https://github.com/" target="_blank" rel="external">Github</a><br>
+
+                    <strong>Editor:</strong>
+                    <a href="https://code.visualstudio.com/" target="_blank" rel="external">Visual Studio Code</a><br>
+
+                    <strong>Navegador:</strong>
+                    <a href="https://www.google.com/intl/pt-BR/chrome/" target="_blank" rel="external">Google Chrome</a><br>
+
+                    <strong>Edição de imagens:</strong>
+                    <a href="https://www.gimp.org/" target="_blank" rel="external">Gimp</a><br>
+                    <hr>
+                    <p><em>Extensões do Chrome</em></p>
+                    <hr>
+                    <a href="https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=pt-br" target="_blank" rel="external">ColorZilla</a><br>
+
+                    <a href="https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=pt-br" target="_blank" rel="external">Fonts Ninja</a><br>
+
+                    <a href="https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=pt-br" target="_blank" rel="external">Window Resizer</a><br>
+
+                    <hr>
+                    <p><em>Extensões do vsCode</em></p>
+                    <hr>
+                    <ul>
+                        <li>Portuguese (Brazil) Language Pack for Visual Studio Code
+                        </li>
+                    </ul>
+                    </div>
+                </aside><!--/app usados-->
+
+                <aside class="card"><!--referências-->
+                    <h3>Referências</h3>
+                    <hr class="linha">
+
+                    ► <a href="https://www.cursoemvideo.com/" target="_blank" rel="external">Curso em Vídeo</a><br>
+
+                    ► <a href="https://github.com/gustavoguanabara" target="_blank" rel="external">Github Gustavo Guanabara</a><br>
+
+                    ► <a href="https://www.w3schools.com/" target="_blank" rel="external">W3 Schools / tutorias</a><br>
+
+                    ► <a href="https://developer.mozilla.org/pt-BR/docs/Web" target="_blank" rel="external">MDN Web Docs / docs</a><br>
+
+                    ► <a href="https://wordpress.com/learn/courses/" target="_blank" rel="external">Wordpress.com / cursos</a><br>
+
+                    ► <a href="https://www.w3schools.com/css/css_website_layout.asp" target="_blank" rel="external">Layout baseado W3 Schools</a><br>
+                    <hr>
+                </aside><!--/referências-->
+
+                <aside class="card-borda"><!--foto do prof-->
+                    <div class="card">
+                        <h3>Prof. Gustavo Guanabara</h3>
+                        <img class="largura50 central" src="./imagem/d005/foto-perfil-guanabara.png" alt="Prof. Gustavo Guanabara">
+                    </div>
+                </aside><!--/foto do prof-->
+
+                <div class="card-exercicio"><!--o site é-->   
+                    <div class="card-borda">
+                        <div class="card">
+                            <hr class="linha">
+                            <h1 class="txt-central">HTML5 e CSS3</h1>
+                            <hr>
+                            <h3 class="txt-central">Esse é um site de amostra para expor todo o conteúdo praticado no curso.</h3>
+                            <hr>
+                            <hr class="linha">
+                        </div>
+                    </div>
+                </div><!--/o site é--> 
+
+            </section><!--/sidebar-->
+
+        </main><!--/corpo do site-->
+
+        <footer><!--rodapé-->
+            <h3>Desenvolvido por Karin Kau </h3>
         </footer>
     </body>
 </html>
+
+<!-- BLOCOS DE TESTE 
+            ###############################################
+            <div class="card">  FORMATADORES
+                <h2>Introdução do módulo X</h2>
+                <hr>
+                <P>Esses são formatadores de texto: <strong>texto em negrito</strong> - <em>texto em enfase</em> - <mark>texto marcado</mark> - <small>texto small diminuído</small> - <del>texto deletado</del> - <ins>texto inserido</ins> - <abbr title="eligendi animi minus ullam ea.">texto abreviado</abbr> - <bdo dir="rtl">texto invertido</bdo> - texto sup O<sup>2</sup> - texto sub X<sub>3</sub> - <q>isso é uma citação de linha.</q> -  Códigos = <code>document.getElementById(“teste”)</code> 
+                </P>
+                <hr>
+                <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_e_CSS_Para_Leigos/E8ZtDwAAQBAJ?hl=pt-BR&gbpv=1&dq=html+para+leigos&printsec=frontcover">
+                    
+                    A diferença entre elementos inline e um bloco de texto é importante.     
+                    Os elementos HTML neste capítulo descrevem os blocos de texto.  
+                    A diferença entre elementos inline e um bloco de texto é importante.      
+                    Os elementos HTML neste capítulo descrevem os blocos de texto.
+                </blockquote>
+            </div>
+
+            ###############################################
+
+            <pre>    texte pre formatado
+                CÓDIGOS DE BLOCO
+
+                num = int(input('Digite um número')) 
+                if num % 2 == 0:
+                    print(f’O número {num} é par’)
+                else:
+                    print(f’O número {num} é impar’)
+                print('Fim do programa')               
+            </pre>
+
+            ###############################################
+
+            <div class="card">    modelo de anúncio
+                <div class="card-borda">
+                    <div class="card">
+                        <hr class="linha">
+                        <br>
+                        <h2 style="text-align: center;">Aprendendo em 2023</h2>
+                        <br> <hr> <br>
+                        <h3 style="text-indent: 30px; text-align: center;">Atenção ao chamado de 2023 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aut et veniam porro nemo itaque fuga alias modi minima enim natus provident error magni numquam totam fugit inventore, nulla tenetur?</h3>
+                        <br> <hr> <br>
+                        <hr class="linha">
+                    </div>
+                </div>
+            </div>
+
+             ###############################################
+
+             <aside class="card">
+                    <h3>Links relativos</h3>
+                    <a href="">link</a>
+                </aside>
+
+             ###############################################
+
+                <aside class="card-borda">
+                    <div class="card">
+                        <h3>Extra</h3>
+                    </div>
+                </aside>
+        -->
+
+
+
