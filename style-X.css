@@ -79,6 +79,34 @@ body { /* corpo do site */
 }
 
 /*
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ MAIN PAGINA SIDEBAR ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+*/
+
+main::after { /* MAIN - colunas desiguais que flutuam uma ao lado da outra. */
+  content: "";
+  display: table;
+  clear: both;
+}
+.rightcolumn { /* barra lateral */
+  background-color: var(--cor-cinza);
+  float: right;
+  width: 25%;
+  margin: 0px;
+}
+.leftcolumn { /* página do site */
+  background-color: var(--cor-cinza);
+  float: left;
+  width: 75%;
+  margin: 0px;
+  padding-left: 10px; 
+  padding-right: 10px;
+}
+.lateral-zero { /* index */
+  padding-left: 0px; 
+  padding-right: 0px;
+}
+
+/*
  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ HEADERS ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
 */
 
@@ -216,33 +244,6 @@ a:active {
   background-color: var(--cor-azulinho);
 }
 
-/*
- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ MAIN PAGINA SIDEBAR ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
-*/
-
-main::after { /* MAIN - colunas desiguais que flutuam uma ao lado da outra. */
-  content: "";
-  display: table;
-  clear: both;
-}
-.rightcolumn { /* barra lateral */
-  background-color: var(--cor-cinza);
-  float: right;
-  width: 25%;
-  margin: 0px;
-}
-.leftcolumn { /* página do site */
-  background-color: var(--cor-cinza);
-  float: left;
-  width: 75%;
-  margin: 0px;
-  padding-left: 10px; 
-  padding-right: 10px;
-}
-.lateral-zero { /* index */
-  padding-left: 0px; 
-  padding-right: 0px;
-}
 
 /*
  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ RODAPÉ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
