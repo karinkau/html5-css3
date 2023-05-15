@@ -400,7 +400,7 @@ em { /* ênfase textual */
 
 mark { /* texto marcado */
   background-color: var(--cor-ciano);  
-  font: oblique 400 var(--size18) var(--font-destaque); 
+  font: oblique 400 var(--size16) var(--font-destaque); 
   color: var(--cor-preto);
   padding: 1px;
 }
