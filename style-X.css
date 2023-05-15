@@ -312,14 +312,6 @@ img.central { /* centralizar imagem */
   width: 100%;
 }
 
-img.primeira-img { /* imagem de abertura */
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 950px;
-  height: 603px;
-}
-
 /*
  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ LINKS ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
 */
