@@ -575,7 +575,8 @@ h2::after {
   empilhe os links de navegação uns sobre os outros. 
 */
 @media screen and (max-width: 400px) {      
-  details > summary {width: 300px; font-size: var(--size16);}  
+  details > summary {width: 250px; font-size: var(--size16);}  
+  pre {font-size: var(--size10); margin-left: -100px;}
 }
 
 /*  box-model = 4 lados → top - right - bottom - left
