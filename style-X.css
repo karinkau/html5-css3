@@ -575,8 +575,20 @@ h2::after {
   empilhe os links de navegação uns sobre os outros. 
 */
 @media screen and (max-width: 400px) {      
-  details > summary {width: 250px; font-size: var(--size16);}  
+  .leftcolumn, .rightcolumn {width: 100%; padding: 0;}
+  nav {position: relative;}
+  .em-2colunas > ol {display: inline;}
+  .em-2colunas > ul {columns: 1;}
+  table {width: 80%;}
+  tr > td {display:inline-table; columns: 1;}
+  header > a > h1 {font-size: var(--size40);}
+  header > p {font-size: var(--size14);}
+  td > h1 {font-size: var(--size20);}
+  details > summary {width: 400px; font-size: var(--size18);}
   pre {font-size: var(--size10); margin-left: -100px;}
+  img.primeira-img {width: 430px; height: 400px;}
+
+
 }
 
 /*  box-model = 4 lados → top - right - bottom - left
